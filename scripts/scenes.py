@@ -21,7 +21,7 @@ def load(root=ROOT):
         text = path.read_text()
         if not re.fullmatch(r'S\d{3,}', tid) or not text.startswith(f'# {tid}｜'):
             raise ValueError(f'{path.name}: 曲目标题或编号错误')
-        if not re.search(r'^- 状态：(候选|已验收)$', text, re.M):
+        if not re.search(r'^- 状态：(待重审|候选|已验收)$', text, re.M):
             raise ValueError(f'{tid}: 曲目状态错误')
         tunes[tid] = path
     rows, seen, signatures = [], set(), set()
@@ -44,12 +44,14 @@ def load(root=ROOT):
         if not re.fullmatch(r'C\d{4,}', sid) or path.stem != sid or sid in seen:
             raise ValueError(f'{path.name}: 编号重复或文件名不匹配')
         seen.add(sid)
-        if row['category'] not in CATEGORIES or row['status'] not in ['候选', '已验收']:
+        if row['category'] not in CATEGORIES or row['status'] not in ['待重审', '候选', '已验收']:
             raise ValueError(f'{sid}: 分类或状态错误')
         if row['source_kind'] not in ['用户素材', '原创迁移', '原创场景']:
             raise ValueError(f'{sid}: 来源类型错误')
         if not row['tunes'] or any(x not in tunes for x in row['tunes']):
             raise ValueError(f'{sid}: 曲目不存在')
+        if row['source_kind'] == '原创场景' and row['status'] == '候选':
+            raise ValueError(f'{sid}: 纯原创未经验收应为待重审，不能自动升级候选')
         if row['source_kind'] == '原创迁移' and not row['sources']:
             raise ValueError(f'{sid}: 原创迁移须有来源')
         for source in row['sources']:
@@ -87,31 +89,41 @@ def generated(rows, tunes):
     outputs = {'scenes/catalog.json': json.dumps(rows, ensure_ascii=False, indent=2) + '\n'}
     counts = collections.Counter(r['status'] for r in rows)
     intro = ['# 场景分类入口', '', '<!-- 由 scripts/scenes.py build 生成，请编辑 cards 中的场景文件。 -->', '',
-             f'共 **{len(tunes)} 首曲子、{len(rows)} 个场景**；场景候选 {counts["候选"]}，已验收 {counts["已验收"]}。曲目内的场景链接不重复计数。', '',
+             f'共保留 **{len(tunes)} 首曲子、{len(rows)} 个场景**；待重审 {counts["待重审"]}，候选 {counts["候选"]}，已验收 {counts["已验收"]}。数量是材料库存，不是优质样本数。曲目内的场景链接不重复计数。', '',
              '先选分类，再按话题与意图筛选，通常读 1—3 张卡及关联曲子。相似标题不代表条件相同；确认用户是否决定、是否答应过、哪些背景能公开。', '',
-             '可运行 `python3 scripts/scenes.py search "红包 不想收" --category 红包与送礼`，默认最多 5 条；返回候选元数据，不自动套用话术。无结果可换关键词或浏览分类，不编造匹配。', '',
+             '可运行 `python3 scripts/scenes.py search "红包 不想收" --category 红包与送礼`，默认排除待重审，最多 5 条；返回候选元数据，不自动套用话术。无结果可换关键词或浏览分类，不编造匹配。', '',
+             '待重审仅供维护时用 `--include-drafts` 查看，不能从曲目链接绕过限制照搬草稿；有来源的原创迁移也不等于作者原句。没有合适样本时依据当前处境直接表达。', '',
              '这是词面检索，不能识别否定、隐含意图或所有同义词，最终选择由 AI 阅读条件判断。无需 Python 时直接打开下面的分类页。', '']
     for cat in CATEGORIES:
         subset = [r for r in rows if r['category'] == cat]
         name = f'scenes/categories/{cat}.md'
-        intro.append(f'- [{cat}](categories/{cat}.md)：{len(subset)} 个场景。')
+        drafts = sum(r['status'] == '待重审' for r in subset)
+        intro.append(f'- [{cat}](categories/{cat}.md)：{len(subset)} 个场景，其中待重审 {drafts}。')
         lines = [f'# {cat}', '', '<!-- 自动生成。只列标题和条件，不加载全部话术。 -->', '']
-        for topic in sorted({r['topic'] for r in subset}):
+        active = [r for r in subset if r['status'] != '待重审']
+        if not active:
+            lines += ['当前只有待重审草稿，没有可作默认范本的卡片；按 SKILL.md 判断处境，不强套。', '']
+        for topic in sorted({r['topic'] for r in active}):
             lines += [f'## {topic}', '']
-            for r in subset:
+            for r in active:
                 if r['topic'] == topic:
-                    lines.append(f'- [{r["id"]} {r["title"]}](../cards/{r["id"]}.md) — {r["intent"].rstrip("。；")}；{r["decision"].rstrip("。；")}。')
+                    lines.append(f'- [{r["id"]} {r["title"]}](../cards/{r["id"]}.md) — [{r["status"]} / {r["source_kind"]}] {r["intent"].rstrip("。；")}；{r["decision"].rstrip("。；")}。')
             lines.append('')
+        if drafts:
+            lines += ['## 待重审草稿（仅维护查阅）', '', '以下不进入默认检索，不代表已认可的说法。', '']
+            lines += [f'- [{r["id"]} {r["title"]}](../cards/{r["id"]}.md) — 待重审 / {r["source_kind"]}' for r in subset if r['status'] == '待重审']
         outputs[name] = '\n'.join(lines)
     outputs['scenes/README.md'] = '\n'.join(intro) + '\n'
     return outputs
 
 
-def rank(rows, query, category=None, intent=None, limit=5):
+def rank(rows, query, category=None, intent=None, limit=5, include_drafts=False):
     # ponytail: 词面排序不理解否定；先读候选条件，实际漏召回再补关键词。
     terms = re.findall(r'[\w]+', query.lower())
     scored = []
     for row in rows:
+        if row['status'] == '待重审' and not include_drafts:
+            continue
         if category and row['category'] != category or intent and row['intent'] != intent:
             continue
         title = row['title'].lower()
@@ -130,6 +142,7 @@ def main():
     p.add_argument('query', nargs='?', default='')
     p.add_argument('--category', choices=CATEGORIES)
     p.add_argument('--intent')
+    p.add_argument('--include-drafts', action='store_true', help='维护时查待重审草稿，不作为正常答复范本')
     p.add_argument('--limit', type=int, default=5)
     args = p.parse_args()
     try:
@@ -137,11 +150,11 @@ def main():
             raise ValueError('--limit 需为 1—20')
         if args.command == 'search':
             rows = json.loads((ROOT / 'scenes/catalog.json').read_text())
-            results = rank(rows, args.query, args.category, args.intent, args.limit)
+            results = rank(rows, args.query, args.category, args.intent, args.limit, args.include_drafts)
             for row in results:
-                print(f'{row["id"]} | {row["category"]} | {row["title"]} | {row["decision"]} | {row["path"]} | {",".join(row["tunes"])}')
+                print(f'{row["id"]} | {row["status"]}/{row["source_kind"]} | {row["category"]} | {row["title"]} | {row["decision"]} | {row["path"]} | {",".join(row["tunes"])}')
             if not results:
-                print('没有匹配；请换关键词或浏览 scenes/README.md。')
+                print('没有可用匹配；请换关键词或浏览分类。有些分类仅有待重审草稿，不应强套。')
             return
         rows, tunes = load()
         outputs = generated(rows, tunes)
