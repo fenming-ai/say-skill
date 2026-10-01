@@ -37,7 +37,7 @@
 ## 交给其他 AI 的指令
 
 ```text
-请为 speak-skill 整理以下沟通素材：[粘贴素材与来源]。
+请为 say-skill 整理以下沟通素材：[粘贴素材与来源]。
 先读取 SKILL.md、scenes/README.md、scenes/TEMPLATE.md 和 CONTRIBUTING.md。
 通过分类或 scripts/scenes.py search 查找，只读相关卡片与曲目。
 

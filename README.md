@@ -1,8 +1,8 @@
-# speak-skill｜帮你把难开口的话，说得清楚、自然、有分寸
+# say-skill｜帮你把难开口的话，说得清楚、自然、有分寸
 
 被催婚，不想吵起来，也不想一直忍着；朋友热情邀约，想拒绝又怕扫兴；红包收也不好意思、不收又怕驳了心意；跟喜欢的人聊天，总像在谈工作。
 
-把发生的事和你的真实想法告诉 AI，speak-skill 帮你组织成说得出口、发得出去的话。有原话可以直接贴，没有草稿也能用。
+把发生的事和你的真实想法告诉 AI，say-skill 帮你组织成说得出口、发得出去的话。有原话可以直接贴，没有草稿也能用。
 
 ## 它帮你解决哪些尴尬
 
@@ -20,7 +20,7 @@
 ## 先用一次
 
 ```text
-使用 $speak-skill。
+使用 $say-skill。
 朋友约我今晚吃饭，我想在家休息，这次不去，也不想约定下次时间。
 帮我说得友好一点，不编理由。
 ```
@@ -65,7 +65,7 @@ python3 scripts/scenes.py search "红包 不想收" --category 红包与送礼
 想贡献素材，可以说：
 
 ```text
-给 speak-skill 增加曲子素材：[场景、原话、你喜欢的表达和原因]。
+给 say-skill 增加曲子素材：[场景、原话、你喜欢的表达和原因]。
 先看看已有曲目，是补样例还是新机制。保留来源，不把它写成万能话术。
 ```
 
@@ -84,15 +84,15 @@ python3 scripts/scenes.py search "红包 不想收" --category 红包与送礼
 
 ## noai 怎么用
 
-speak-skill 先把意思说对，再检查是否自然。已安装 `noai-skill` 时会读取并使用它做表达检查；没有安装也可以依靠包内检查正常工作，不需要额外 API Key。
+say-skill 先把意思说对，再检查是否自然。已安装 `noai-skill` 时会读取并使用它做表达检查；没有安装也可以依靠包内检查正常工作，不需要额外 API Key。
 
-speak 将关系、目的、公开范围、语气和禁止增加的承诺随草稿交给 noai。回应办法不合适时先返回 speak 重写，不能只换软词。
+say 将关系、目的、公开范围、语气和禁止增加的承诺随草稿交给 noai。回应办法不合适时先返回 say 重写，不能只换软词。
 
 检查会去掉空泛、僵硬或油腻的表达，同时保留有作用的感谢和礼貌，不把明确拒绝改软。普通使用只给消息，不附一份长篇审稿报告。
 
 ## 安装
 
-公开仓库名为 `say-skill`；Skill 内部名称仍为 `speak-skill`，原有调用方式不变。
+仓库、Skill 名称和安装目录统一为 `say-skill`，调用方式为 `$say-skill`。历史测试保留运行时的旧名称与路径，不作为当前安装指令。
 
 把**整个仓库目录**安装到工具支持的 Skills 目录，不能只复制 `SKILL.md`，因为入口需要读取曲子库等相对路径资源。
 
@@ -100,7 +100,7 @@ speak 将关系、目的、公开范围、语气和禁止增加的承诺随草�
 
 ```bash
 mkdir -p ~/.agents/skills
-git clone https://github.com/fenming-ai/say-skill.git ~/.agents/skills/speak-skill
+git clone https://github.com/fenming-ai/say-skill.git ~/.agents/skills/say-skill
 ```
 
 目标已存在时先保留个人修改、比较版本，不直接删除或覆盖。其他工具按其实际 Skills 目录安装。
@@ -114,7 +114,7 @@ git clone https://github.com/fenming-ai/say-skill.git ~/.agents/skills/speak-ski
 不要只保存 SKILL.md，也不要声称安装了并不存在的 noai-skill。
 ```
 
-新开对话，明确调用 `$speak-skill` 并试一条新场景。检查本轮是否实际读取了入口和相关曲目；仅回答“我已使用”不算加载证据。
+新开对话，明确调用 `$say-skill` 并试一条新场景。检查本轮是否实际读取了入口和相关曲目；仅回答“我已使用”不算加载证据。
 
 ## 写得不对，直接纠正
 
