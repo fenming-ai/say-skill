@@ -10,11 +10,12 @@
 
 - 原登记版本：[书介及目录](https://www.tenlong.com.tw/products/9789861365565)，如何出版，ISBN 9789861365565。此前只读书介和目录。
 - 本次正文来源：[出版方 Booklife 公开试阅](https://www.booklife.com.tw/product-detail/S0100102)，如何出版社，2010-04-29，ISBN 9789861362496。2026-10-01 实际读取；与原登记版本区分，不混用页码。网页没有纸书页码，以试阅小标题定位。
-- 本次用于入曲的三段正文及对应关系：
+- 本次用于入曲的四段正文及对应关系：
   - 数字段（小标题“硬生生的報出數字，是很難給人留下印象的”）→ [S004](../tunes/S004-不报私人数目把话题转开.md)。启发：用非敏感话题避开私人数字。保留隐私而不提供可倒推比喻，是本项目的取舍。
   - 卡住话题段（小标题“會卡住的話題，就讓它摔破在地上”）→ [S005](../tunes/S005-话题接不下去就换一个.md)。启发：闲聊停滞时允许换题，不硬撑。
   - 附和与讨论段（小标题“適度的挑釁，絕對能讓談話熱絡”）→ [S006](../tunes/S006-意见不同也能好好接话.md)。启发：有真实意见才有交流；不迁移冒犯性玩笑或效果保证。
-- 阅读状态：上述三段正文已读，已提炼 3 首候选；不是全文阅读或全书蒸馏。页面其他试阅内容尚未完成逐段收录，目录中的未读章节不据标题造曲子。
+  - 求助段（小标题“開口找人幫忙時，要大事化小”）→ [S015](../tunes/S015-请人帮忙先说清要帮哪一步.md)。只取请求范围具体化，不采用先让人答应再追加未披露任务的做法。
+- 阅读状态：上述四段正文已读，已提炼 4 首候选；不是全文阅读或全书蒸馏。页面其他试阅内容尚未完成逐段收录，目录中的未读章节不据标题造曲子。
 - 所有新对话、WHY、迁移与反例均为本项目原创应用；只留短摘要及来源定位，不保存或发布原书全文。对比原有 S001—S003：新增分别处理拒答后转题、闲聊停滞、意见分歧，未按场景重复建拒绝曲子。
 
 ### B02 Melissa Urban, The Book of Boundaries
@@ -38,7 +39,10 @@
 ### B05 刘墉《说话的魅力》
 
 - [版本及目录](https://www.sanmin.com.tw/product/index/007159326)，接力出版社，2019，ISBN 9787544859110。
-- 已读：书介与目录；页面没有提供相关正文。本轮未进行章节蒸馏。
+- 上述 2019 版只读书介与目录。以下实际读取不同版本的公开正文，不混用页码，不宣称全书已读。
+- **B05a**：[《刘墉超强说话术：把话说到心窝里1》试阅](https://www.sanmin.com.tw/product/index/003036759)，漓江出版社，2012-04-01，ISBN 9787540756383。已读“开不了口的老王”及页面附带分析 → S010。只取先了解条件，不模仿故事里的身份误认。
+- **B05b**：[中央社公开节录](https://www.cna.com.tw/proj_goodbook/social-science/366)，2011-01-29 发布，介绍时报 2010-09-02 版《刘墉超强说话术1把话说到心窝里》。已读“告诉你一个好消息” → S011。只取表达次序，费用须清楚，不迁移医疗解释或制造好消息的推销方式。
+- [2013 珍藏版书介](https://www.sanmin.com.tw/product/index/003655885)，ISBN 9787544828055，列明收录《把话说到心窝里》1、2 等四本，故归为同一来源组；不据此声称 2019 版逐字相同。
 - 采集方向：措辞与次序。优先待补与难开口、熟人关系相关正文；必须读到材料后再判断，不能依据章节名编机制。
 
 ### B06 刘墉《人生百忌》系列
@@ -48,31 +52,31 @@
 - 内容依据：试阅讨论持续圆话的负担，以及私人信息被转述后改变含义的可能性。作者的绝对化处世判断不直接当作普遍事实。
 - [第三册](https://www.sanmin.com.tw/product/index/004570929)，时报文化，2014，ISBN 9789571359830。
 - 已读：目录及“忌不让人表现”公开试阅；不是整册。试阅关注交往中对他人表现与感受的照应，并非饭局拒绝教程。
-- 本项目迁移：保护背景、顾及关系、不为应付追问不断增添故事。具体推理见 [D1—D3](refusal-decisions.md)，示例是原创，不冒充书中原话。其他分册待补版本和正文。
+- 本项目迁移：保护背景、顾及关系、不为应付追问不断增添故事。具体推理见 [D1—D3](refusal-decisions.md)，示例是原创，不冒充书中原话。本批另从第二册的连续圆话问题迁移 S012，从第三册的插话场景迁移 S013。其他分册待补版本和正文。
 
 ### B07 刘墉《我不是教你诈》系列
 
 - [合集书介与分册线索](https://www.megbook.com.tw/mall/detail.jsp?proID=3947437)。仅定位到合集，实际采用版本与章节待选。
-- 已读：书介；未读章节正文。
+- 已读：书介；另检查[2008 第一册公开页面](https://www.sanmin.com.tw/product/index/000709624)，时报，ISBN 9789571348926，试阅只有截断的前言，没有足以提炼的具体章节。本批不新增此书曲子。
 - 采集方向：处境识别和应对；不据书名教操控，也不把用户猜测当成他人的确定动机。
 
 ### B08 刘墉《你不可不知的人性》
 
 - [2017 全二册书目及目录](https://book.douban.com/subject/26990717/)、[另一版本电子书介绍](https://www.airitibooks.com/Publication/Details?publicationID=P20240401351)。两版不可混用页码，后续按实际取得文本锁定版本。
-- 已读：书介及部分目录；未读正文。
+- 本批另读[跨世代经典版公开试阅](https://www.sanmin.com.tw/product/index/012739738)，联合文学，2024-01-17，ISBN 9789863235859：“股市名嘴换人做”及页面分析 → S014。只吸收失意时避免比较的观察，不采用假装同亏或人人嫉妒的断言；不是全文阅读。
 - 采集方向：理解与谅解共同保留，避免看见一次邀约就给人贴恶意标签。
 
 ### B09 刘墉《萤窗小语》系列
 
 - [接力出版社书目中的系列线索](https://el-ccbf-storage.www.comocloud.net/DTP/como_webform_import/files/JMVU1601018719_PWMkyv.pdf)、[同系列书介](https://www.sanmin.com.tw/product/index/007159326)。具体采用版本与章节待选。
-- 状态：出版目录线索与书介，未读正文。
+- 本批另读[《萤窗小语：爆米花好美，从头到尾》公开试阅](https://www.sanmin.com.tw/product/index/002744091)，接力，2012-01-01，ISBN 9787544822831。“平淡真好”“心扉”（网页标注 P1–5）已读；前者支持平实表达，后者不迁移年龄刻板印象。两篇未形成独立对话机制，本批不为其凑曲子。
 - 采集方向：生活观察、体谅与表达温度；未能形成具体判断的段落保留为素材，不强做曲子。
 
 ## 文章与方法
 
 - **A01** [Emily Post：The Continuing Importance of the RSVP](https://emilypost.com/advice/the-continuing-importance-of-the-rsvp)。已读相关正文“Keep replies brief”：拒绝邀请的解释可以简短。迁移为不必展开私人细节，不推导出必须冷硬说不。
 - **A02** [Melissa Urban：Holiday Boundaries](https://whole30.com/article/dear-melissa-setting-holiday-boundaries/)。已读节日安排、隐私问题与饮食压力部分。适合提炼话题转换和明确范围，不机械照搬较强硬的英文表达。
-- **A03** [Melissa Urban：Upgrade your summer with boundaries](https://blog.melissau.com/p/upgrade-your-summer-with-boundaries)。已读公开的访客安排部分。保留自己的时间，不要求向别人交代所有安排；具体中文托辞由本项目原创。
+- **A03** [Melissa Urban：Upgrade your summer with boundaries](https://blog.melissau.com/p/upgrade-your-summer-with-boundaries)。已读公开的访客安排、Scenario 3 独处与共同旅行、Scenario 4 夫妻探亲住宿部分。保留自己的时间，不要求向别人交代所有安排；具体中文托辞由本项目原创。
 - **A04** [CNVC：The Purpose of Nonviolent Communication](https://www.cnvc.org/about/purpose-of-nvc)。已读公开原则，支持愿意表达感受时的 S001；不把坦白感受当所有场景的义务。
 - **A05** [CCI：Assertiveness 资源入口](https://www.cci.health.wa.gov.au/en/Resources/Looking-After-Yourself/Assertiveness)。已确认拒绝模块入口；此前 PDF 正文读取失败，仍为线索，不声称已读模块。
 - **A06** [love is respect：How to set boundaries](https://www.loveisrespect.org/everyone-deserves-a-healthy-relationship/how-to-set-boundaries/)。已读公开说明；保留双方意愿与限制，供第二批约会关系方向参考。
@@ -88,6 +92,13 @@
 - **X04** [记住很重要的一点，你不要入任何人的局](https://www.xiaohongshu.com/discovery/item/6abcb6ab000000001803b5a6)。正文已读，取得 6 条评论但未逐条分析。偏立场宣言，具体对话不足，暂不入曲。
 - **X05** [你不是孝顺，你是在替父母的焦虑付账](https://www.xiaohongshu.com/discovery/item/6abd9c930000000018013929)。正文已读，取得 1 条评论但未分析；带有关系对抗框架，不能直接套作亲子关系定论，暂不入曲。
 - **X06** [写在41岁生日这一天｜允许一切如其所是](https://www.xiaohongshu.com/discovery/item/6abc76e2000000001b03063c)。正文已读，取得 20 条评论但未逐条分析。生活感悟多、具体接话少，先留资料，不硬凑曲子。
+
+## 本批素材实际用到哪里
+
+- X01 → S007；X01、X03 → S002、S003 的同事邀约、午休与“不合群”追问样例。X02 保留为具体故事和补偿承诺的反例。X04—X06 仍不优先入曲。
+- A02 → S008、S009；A03 → S008、S016。共同决定只用于已商量好的安排，不能伪造“我们”。
+- B01 → S004—S006、S015，共 4 首；B05a/b → S010、S011；B06 → S012、S013，也支持此前拒绝曲子的隐私与圆话判断；B08 → S014。
+- B02—B04 的整书、B07 具体章节仍待取得正文。B09 已读两篇，但暂不建新曲。已读片段不等于已下载或转换整书。
 
 ## 下一次增加材料
 
