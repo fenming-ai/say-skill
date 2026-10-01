@@ -2005,11 +2005,14 @@
     "relationship": "家长对孩子",
     "decision": "七岁孩子争玩具时打了别人，家长在场，需先分开并检查双方情况",
     "tunes": [
-      "S025"
+      "S025",
+      "S034"
     ],
-    "source_kind": "原创场景",
-    "sources": [],
-    "status": "待重审",
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
     "keywords": [
       "冲突与规则",
       "停止伤害",
@@ -2048,11 +2051,14 @@
     "decision": "十岁孩子事先同意玩二十分钟，现已到时；允许保存当前进度但不再开一局",
     "tunes": [
       "S025",
-      "S024"
+      "S024",
+      "S033"
     ],
-    "source_kind": "原创场景",
-    "sources": [],
-    "status": "待重审",
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
     "keywords": [
       "约定与规则",
       "执行已有约定",
@@ -2191,5 +2197,512 @@
     ],
     "review": "tests/red-envelope-feedback-2026-10-01.md",
     "path": "scenes/cards/C0101.md"
+  },
+  {
+    "id": "C0102",
+    "title": "孩子说同学都不喜欢自己",
+    "category": "父母与孩子",
+    "topic": "倾听困扰",
+    "intent": "先听孩子说经过",
+    "relationship": "家长对上小学的孩子",
+    "decision": "孩子放学后说同学都不喜欢自己；家长尚不知道发生了什么，没有眼前危险。",
+    "tunes": [
+      "S027"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "孩子",
+      "同学",
+      "不喜欢",
+      "倾听",
+      "学校"
+    ],
+    "path": "scenes/cards/C0102.md"
+  },
+  {
+    "id": "C0103",
+    "title": "朋友下班后想抱怨工作",
+    "category": "朋友与人情",
+    "topic": "倾听诉苦",
+    "intent": "先听再决定是否建议",
+    "relationship": "熟悉的朋友",
+    "decision": "朋友说今天工作很糟，正在讲经过；用户愿意听，但不知道对方是否想要建议。",
+    "tunes": [
+      "S027"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "朋友",
+      "工作",
+      "诉苦",
+      "建议",
+      "倾听"
+    ],
+    "path": "scenes/cards/C0103.md"
+  },
+  {
+    "id": "C0104",
+    "title": "孩子觉得规则不公平",
+    "category": "父母与孩子",
+    "topic": "情绪与规则",
+    "intent": "先回应委屈再谈规则",
+    "relationship": "家长对孩子",
+    "decision": "孩子说家里的规则不公平，明显委屈；规则是否调整尚未决定。",
+    "tunes": [
+      "S028"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "孩子",
+      "不公平",
+      "委屈",
+      "规则",
+      "共情"
+    ],
+    "path": "scenes/cards/C0104.md"
+  },
+  {
+    "id": "C0105",
+    "title": "朋友说这次评审很受挫",
+    "category": "朋友与人情",
+    "topic": "回应失落",
+    "intent": "先接住挫败再讨论办法",
+    "relationship": "熟悉的朋友",
+    "decision": "朋友刚被否定，明确说自己很受打击；用户想安慰，暂不确定是否需要建议。",
+    "tunes": [
+      "S028"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "朋友",
+      "评审",
+      "受挫",
+      "安慰",
+      "建议"
+    ],
+    "path": "scenes/cards/C0105.md"
+  },
+  {
+    "id": "C0106",
+    "title": "朋友临时不能来吃饭",
+    "category": "朋友与人情",
+    "topic": "邀请被拒",
+    "intent": "接受对方不参加",
+    "relationship": "平常来往的朋友",
+    "decision": "朋友说临时有事不能来；没有订金损失，用户愿意接受，不要求解释。",
+    "tunes": [
+      "S029"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "朋友",
+      "吃饭",
+      "临时有事",
+      "取消",
+      "拒绝"
+    ],
+    "path": "scenes/cards/C0106.md"
+  },
+  {
+    "id": "C0107",
+    "title": "同事拒绝额外帮忙",
+    "category": "工作与日常事务",
+    "topic": "请求被拒",
+    "intent": "接受拒绝并另找办法",
+    "relationship": "没有管理关系的同事",
+    "decision": "用户临时请同事额外帮忙；对方说手头忙不能接，原本没有义务答应。",
+    "tunes": [
+      "S029"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "同事",
+      "帮忙",
+      "拒绝",
+      "额外工作",
+      "另想办法"
+    ],
+    "path": "scenes/cards/C0107.md"
+  },
+  {
+    "id": "C0108",
+    "title": "朋友饭后说你破费了",
+    "category": "朋友与人情",
+    "topic": "回应请客客气",
+    "intent": "说明这顿饭值得",
+    "relationship": "关系不错的朋友",
+    "decision": "用户主动请客且真心愿意承担；朋友饭后说你破费了。",
+    "tunes": [
+      "S030"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "请客",
+      "破费",
+      "朋友",
+      "饭局",
+      "客气"
+    ],
+    "path": "scenes/cards/C0108.md"
+  },
+  {
+    "id": "C0109",
+    "title": "长辈家宴后说花太多钱",
+    "category": "父母与亲戚",
+    "topic": "回应请客客气",
+    "intent": "安下长辈对花费的顾虑",
+    "relationship": "晚辈对关系亲近的长辈",
+    "decision": "晚辈主动安排家宴并愿意承担；长辈饭后心疼花费。",
+    "tunes": [
+      "S030"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "长辈",
+      "家宴",
+      "破费",
+      "花钱",
+      "团聚"
+    ],
+    "path": "scenes/cards/C0109.md"
+  },
+  {
+    "id": "C0110",
+    "title": "同事替自己跑了一趟手续",
+    "category": "工作与日常事务",
+    "topic": "感谢具体帮助",
+    "intent": "看见额外付出并道谢",
+    "relationship": "平级同事",
+    "decision": "同事额外跑了一趟线下手续，事情已经办完；用户要感谢，不承诺回报。",
+    "tunes": [
+      "S031"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "同事",
+      "跑手续",
+      "感谢",
+      "辛苦",
+      "帮忙"
+    ],
+    "path": "scenes/cards/C0110.md"
+  },
+  {
+    "id": "C0111",
+    "title": "快递员雨天送到门口",
+    "category": "工作与日常事务",
+    "topic": "感谢服务付出",
+    "intent": "回应眼前辛苦",
+    "relationship": "顾客对服务人员",
+    "decision": "下雨天，快递员按约送到门口；用户想简短道谢。",
+    "tunes": [
+      "S031"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "快递",
+      "下雨",
+      "送货",
+      "辛苦了",
+      "谢谢"
+    ],
+    "path": "scenes/cards/C0111.md"
+  },
+  {
+    "id": "C0112",
+    "title": "家长快要说重话先暂停",
+    "category": "父母与孩子",
+    "topic": "暂停争执",
+    "intent": "避免气头上伤人并继续谈",
+    "relationship": "家长对孩子",
+    "decision": "亲子争执中家长已经很生气，事情不紧急；愿意十分钟后回来继续。",
+    "tunes": [
+      "S032"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "家长",
+      "生气",
+      "暂停",
+      "十分钟",
+      "争执"
+    ],
+    "path": "scenes/cards/C0112.md"
+  },
+  {
+    "id": "C0113",
+    "title": "朋友争执越说越冲",
+    "category": "朋友与人情",
+    "topic": "暂停争执",
+    "intent": "暂时停下并保留后续沟通",
+    "relationship": "关系重要的朋友",
+    "decision": "双方语气越来越冲，当下没有必须马上决定的事情；用户愿意晚些主动联系。",
+    "tunes": [
+      "S032"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "朋友",
+      "争执",
+      "暂停",
+      "晚点聊",
+      "冷静"
+    ],
+    "path": "scenes/cards/C0113.md"
+  },
+  {
+    "id": "C0114",
+    "title": "孩子不同意但决定暂时不变",
+    "category": "父母与孩子",
+    "topic": "决定与表达",
+    "intent": "保留决定并听孩子理由",
+    "relationship": "家长对孩子",
+    "decision": "孩子不同意周末安排；家长根据现有条件暂时不能改变，但愿意听理由。",
+    "tunes": [
+      "S033",
+      "S006"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "孩子",
+      "不同意",
+      "听理由",
+      "决定不变",
+      "顶嘴",
+      "闭嘴",
+      "听我的",
+      "反了你了"
+    ],
+    "path": "scenes/cards/C0114.md"
+  },
+  {
+    "id": "C0115",
+    "title": "孩子哭着不肯继续说",
+    "category": "父母与孩子",
+    "topic": "情绪与行为",
+    "intent": "允许哭泣并等待表达",
+    "relationship": "家长对孩子",
+    "decision": "孩子因为争执在哭，没有打人、摔东西或眼前危险；家长愿意等。",
+    "tunes": [
+      "S034",
+      "S025"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "孩子",
+      "哭",
+      "情绪",
+      "陪伴",
+      "不许哭"
+    ],
+    "path": "scenes/cards/C0115.md"
+  },
+  {
+    "id": "C0116",
+    "title": "会议信息不足先不下结论",
+    "category": "工作与日常事务",
+    "topic": "会议判断",
+    "intent": "指出缺失信息并暂缓结论",
+    "relationship": "项目成员对会议参与者",
+    "decision": "会上有人要求马上定方案；关键成本和验证数据尚未提供，用户没有拍板权限。",
+    "tunes": [
+      "S021"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "会议",
+      "信息不足",
+      "暂缓",
+      "结论",
+      "数据"
+    ],
+    "path": "scenes/cards/C0116.md"
+  },
+  {
+    "id": "C0117",
+    "title": "供应商过节私发红包",
+    "category": "红包与送礼",
+    "topic": "拒收利益相关红包",
+    "intent": "接受祝福并拒收钱",
+    "relationship": "有业务往来的合作方",
+    "decision": "供应商私发节日红包；用户决定不领取，愿意回应祝福，不承诺业务照顾。",
+    "tunes": [
+      "S019"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "供应商",
+      "红包",
+      "过节",
+      "拒收",
+      "合作"
+    ],
+    "path": "scenes/cards/C0117.md"
+  },
+  {
+    "id": "C0118",
+    "title": "陌生人连续打探隐私",
+    "category": "工作与日常事务",
+    "topic": "隐私追问",
+    "intent": "拒答并结束盘问",
+    "relationship": "刚认识的人",
+    "decision": "对方连续询问工作、收入和感情；用户不想回答，也不想虚构身份。",
+    "tunes": [
+      "S004"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "陌生人",
+      "隐私",
+      "收入",
+      "感情",
+      "查户口"
+    ],
+    "path": "scenes/cards/C0118.md"
+  },
+  {
+    "id": "C0119",
+    "title": "客户觉得方案价格高仍愿了解",
+    "category": "工作与日常事务",
+    "topic": "客户顾虑",
+    "intent": "承认价格感受并澄清卡点",
+    "relationship": "销售或服务方对仍在比较的客户",
+    "decision": "客户说价格高，但继续询问方案差异；用户有真实报价，不使用虚构优惠。",
+    "tunes": [
+      "S035"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "客户",
+      "价格高",
+      "预算",
+      "顾虑",
+      "销售"
+    ],
+    "path": "scenes/cards/C0119.md"
+  },
+  {
+    "id": "C0120",
+    "title": "同事担心新方案风险太大",
+    "category": "工作与日常事务",
+    "topic": "方案顾虑",
+    "intent": "确认风险卡点再讨论",
+    "relationship": "共同负责项目的同事",
+    "decision": "同事说新方案风险太大，但没有说具体风险；双方仍需共同评估。",
+    "tunes": [
+      "S035",
+      "S006"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "同事",
+      "方案",
+      "风险",
+      "顾虑",
+      "讨论"
+    ],
+    "path": "scenes/cards/C0120.md"
+  },
+  {
+    "id": "C0121",
+    "title": "朋友倾诉后不确定是否想听建议",
+    "category": "朋友与人情",
+    "topic": "提供意见",
+    "intent": "先确认是否愿意听看法",
+    "relationship": "熟悉的朋友",
+    "decision": "朋友讲完困扰，没有明确求建议；用户有不同看法，担心现在说会增加压力。",
+    "tunes": [
+      "S006",
+      "S027"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "朋友",
+      "倾诉",
+      "建议",
+      "不同看法",
+      "愿不愿听"
+    ],
+    "path": "scenes/cards/C0121.md"
   }
 ]
