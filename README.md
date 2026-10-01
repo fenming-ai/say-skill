@@ -88,13 +88,15 @@ speak-skill 先把意思说对，再检查是否自然。已安装 `noai-skill` 
 
 ## 安装
 
+公开仓库名为 `say-skill`；Skill 内部名称仍为 `speak-skill`，原有调用方式不变。
+
 把**整个仓库目录**安装到工具支持的 Skills 目录，不能只复制 `SKILL.md`，因为入口需要读取曲子库等相对路径资源。
 
 例如，使用已有 `~/.agents/skills/` 目录的 Codex 环境，可在终端运行：
 
 ```bash
 mkdir -p ~/.agents/skills
-git clone https://github.com/fenming-ai/speak-skill.git ~/.agents/skills/speak-skill
+git clone https://github.com/fenming-ai/say-skill.git ~/.agents/skills/speak-skill
 ```
 
 目标已存在时先保留个人修改、比较版本，不直接删除或覆盖。其他工具按其实际 Skills 目录安装。
@@ -102,7 +104,7 @@ git clone https://github.com/fenming-ai/speak-skill.git ~/.agents/skills/speak-s
 也可以把以下指令交给有文件访问能力的 AI：
 
 ```text
-请把 https://github.com/fenming-ai/speak-skill 的完整仓库安装到本工具的 Skills 目录。
+请把 https://github.com/fenming-ai/say-skill 的完整仓库安装到本工具的 Skills 目录。
 先确认本工具支持的安装位置。目标已存在时保留个人修改，不直接覆盖。
 安装后回读 SKILL.md 和 tunes/README.md，确认所有相对引用可访问。
 不要只保存 SKILL.md，也不要声称安装了并不存在的 noai-skill。
