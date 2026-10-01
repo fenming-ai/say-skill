@@ -1,0 +1,2169 @@
+[
+  {
+    "id": "C0001",
+    "title": "父母反复催婚",
+    "category": "父母与亲戚",
+    "topic": "表达影响",
+    "intent": "表达影响",
+    "relationship": "父母或亲戚",
+    "decision": "父母反复催婚，用户确实因此不敢联系，希望父母知道这种影响。",
+    "tunes": [
+      "S001"
+    ],
+    "source_kind": "用户素材",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "父母反复催婚"
+    ],
+    "path": "scenes/cards/C0001.md"
+  },
+  {
+    "id": "C0002",
+    "title": "朋友强烈邀约",
+    "category": "朋友与人情",
+    "topic": "表达影响",
+    "intent": "表达影响",
+    "relationship": "朋友或熟人",
+    "decision": "朋友热情邀约，用户确实有压力、难开口，想把这种窘迫告诉朋友。",
+    "tunes": [
+      "S001"
+    ],
+    "source_kind": "用户素材",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "朋友强烈邀约"
+    ],
+    "path": "scenes/cards/C0002.md"
+  },
+  {
+    "id": "C0003",
+    "title": "别人替自己决定",
+    "category": "朋友与人情",
+    "topic": "表达影响",
+    "intent": "表达影响",
+    "relationship": "朋友或熟人",
+    "decision": "对方已经安排，用户尚未点头，想提醒决定权仍属于自己。",
+    "tunes": [
+      "S001"
+    ],
+    "source_kind": "用户素材",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "别人替自己决定"
+    ],
+    "path": "scenes/cards/C0003.md"
+  },
+  {
+    "id": "C0004",
+    "title": "旧同事邀约",
+    "category": "朋友与人情",
+    "topic": "拒绝邀约",
+    "intent": "拒绝邀约",
+    "relationship": "同事或事务协作对象",
+    "decision": "对方只问周末吃饭；用户从朋友圈知道他换了工作，怀疑他想显摆，不想赴约，要求客气推辞。",
+    "tunes": [
+      "S002"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A01",
+      "A03",
+      "B06",
+      "X01",
+      "X03"
+    ],
+    "status": "候选",
+    "keywords": [
+      "旧同事邀约"
+    ],
+    "path": "scenes/cards/C0004.md"
+  },
+  {
+    "id": "C0005",
+    "title": "节日家庭聚餐",
+    "category": "父母与亲戚",
+    "topic": "拒绝邀约",
+    "intent": "拒绝邀约",
+    "relationship": "父母或亲戚",
+    "decision": "不想参加聚餐，也不愿让亲戚知道自己的身材顾虑，要求委婉找个台阶。",
+    "tunes": [
+      "S002"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A01",
+      "A03",
+      "B06",
+      "X01",
+      "X03"
+    ],
+    "status": "候选",
+    "keywords": [
+      "节日家庭聚餐"
+    ],
+    "path": "scenes/cards/C0005.md"
+  },
+  {
+    "id": "C0006",
+    "title": "邻居邀约活动",
+    "category": "朋友与人情",
+    "topic": "拒绝邀约",
+    "intent": "拒绝邀约",
+    "relationship": "邻居",
+    "decision": "邻居邀请周末活动，用户不想去、不想介绍自己的经济情况，双方平时关系正常。",
+    "tunes": [
+      "S002"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A01",
+      "A03",
+      "B06",
+      "X01",
+      "X03"
+    ],
+    "status": "候选",
+    "keywords": [
+      "邻居邀约活动"
+    ],
+    "path": "scenes/cards/C0006.md"
+  },
+  {
+    "id": "C0007",
+    "title": "下班临时被同事叫住",
+    "category": "工作与日常事务",
+    "topic": "拒绝邀约",
+    "intent": "拒绝邀约",
+    "relationship": "同事或事务协作对象",
+    "decision": "同事知道用户独居，下班叫去吃饭；用户决定回家，愿意说回家，但不想交代私生活。",
+    "tunes": [
+      "S002"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A01",
+      "A03",
+      "B06",
+      "X01",
+      "X03"
+    ],
+    "status": "候选",
+    "keywords": [
+      "下班临时被同事叫住"
+    ],
+    "path": "scenes/cards/C0007.md"
+  },
+  {
+    "id": "C0008",
+    "title": "午休时间想自己待会儿",
+    "category": "工作与日常事务",
+    "topic": "拒绝邀约",
+    "intent": "拒绝邀约",
+    "relationship": "同事或事务协作对象",
+    "decision": "同事约午饭，用户已决定自己吃、休息，愿意公开这个安排。",
+    "tunes": [
+      "S002"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A01",
+      "A03",
+      "B06",
+      "X01",
+      "X03"
+    ],
+    "status": "候选",
+    "keywords": [
+      "午休时间想自己待会儿"
+    ],
+    "path": "scenes/cards/C0008.md"
+  },
+  {
+    "id": "C0009",
+    "title": "被要求改期",
+    "category": "朋友与人情",
+    "topic": "拒绝后的追问",
+    "intent": "拒绝后的追问",
+    "relationship": "朋友或熟人",
+    "decision": "先前婉拒旧同事约饭，用户这阵子不想约饭，也不想许诺以后。",
+    "tunes": [
+      "S003"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A02",
+      "A03",
+      "X02",
+      "X03"
+    ],
+    "status": "候选",
+    "keywords": [
+      "被要求改期"
+    ],
+    "path": "scenes/cards/C0009.md"
+  },
+  {
+    "id": "C0010",
+    "title": "亲人追问细节",
+    "category": "父母与亲戚",
+    "topic": "拒绝后的追问",
+    "intent": "拒绝后的追问",
+    "relationship": "父母或亲戚",
+    "decision": "上一轮用了“有点个人安排”，对方问“到底什么事，我们能帮忙吗？”用户不想展开。",
+    "tunes": [
+      "S003"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A02",
+      "A03",
+      "X02",
+      "X03"
+    ],
+    "status": "候选",
+    "keywords": [
+      "亲人追问细节"
+    ],
+    "path": "scenes/cards/C0010.md"
+  },
+  {
+    "id": "C0011",
+    "title": "熟人用关系施压",
+    "category": "朋友与人情",
+    "topic": "拒绝后的追问",
+    "intent": "拒绝后的追问",
+    "relationship": "朋友或熟人",
+    "decision": "已客气推掉校友饭局，不想继续争论；对方说“这点面子都不给？”",
+    "tunes": [
+      "S003"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A02",
+      "A03",
+      "X02",
+      "X03"
+    ],
+    "status": "候选",
+    "keywords": [
+      "熟人用关系施压"
+    ],
+    "path": "scenes/cards/C0011.md"
+  },
+  {
+    "id": "C0012",
+    "title": "被说不合群",
+    "category": "工作与日常事务",
+    "topic": "拒绝后的追问",
+    "intent": "拒绝后的追问",
+    "relationship": "同事或事务协作对象",
+    "decision": "同事说“你怎么又不来，不合群啊”；用户不想参加这次饭局，但愿意保持平日正常往来。",
+    "tunes": [
+      "S003"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A02",
+      "A03",
+      "X02",
+      "X03"
+    ],
+    "status": "候选",
+    "keywords": [
+      "被说不合群"
+    ],
+    "path": "scenes/cards/C0012.md"
+  },
+  {
+    "id": "C0013",
+    "title": "对方说不喝酒也能来",
+    "category": "朋友与人情",
+    "topic": "拒绝后的追问",
+    "intent": "拒绝后的追问",
+    "relationship": "朋友或熟人",
+    "decision": "用户已婉拒同事聚餐，没说过怕喝酒；对方说“我们只喝饮料，你来就行”，用户仍不想去，也不想解释私人原因。",
+    "tunes": [
+      "S003"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A02",
+      "A03",
+      "X02",
+      "X03"
+    ],
+    "status": "候选",
+    "keywords": [
+      "对方说不喝酒也能来"
+    ],
+    "path": "scenes/cards/C0013.md"
+  },
+  {
+    "id": "C0014",
+    "title": "饭桌上被问奖金",
+    "category": "父母与亲戚",
+    "topic": "隐私拒答",
+    "intent": "隐私拒答",
+    "relationship": "父母或亲戚",
+    "decision": "亲戚问年终奖多少；用户不想说，对方刚介绍过自己做的卤牛肉，用户确实想问做法。",
+    "tunes": [
+      "S004"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B01"
+    ],
+    "status": "候选",
+    "keywords": [
+      "饭桌上被问奖金"
+    ],
+    "path": "scenes/cards/C0014.md"
+  },
+  {
+    "id": "C0015",
+    "title": "同事问私人物品价格",
+    "category": "工作与日常事务",
+    "topic": "隐私拒答",
+    "intent": "隐私拒答",
+    "relationship": "同事或事务协作对象",
+    "decision": "同事问包多少钱，用户不想聊价格，但愿意说明它能装下电脑，对方也在找通勤包。",
+    "tunes": [
+      "S004"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B01"
+    ],
+    "status": "候选",
+    "keywords": [
+      "同事问私人物品价格"
+    ],
+    "path": "scenes/cards/C0015.md"
+  },
+  {
+    "id": "C0016",
+    "title": "被问收入，不想打趣",
+    "category": "父母与亲戚",
+    "topic": "隐私拒答",
+    "intent": "隐私拒答",
+    "relationship": "父母或亲戚",
+    "decision": "亲戚问收入；用户想直接、平常地略过，不愿自嘲或假装穷。",
+    "tunes": [
+      "S004"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B01"
+    ],
+    "status": "候选",
+    "keywords": [
+      "被问收入，不想打趣"
+    ],
+    "path": "scenes/cards/C0016.md"
+  },
+  {
+    "id": "C0017",
+    "title": "聚会聊专业话题冷场",
+    "category": "朋友与人情",
+    "topic": "冷场与收尾",
+    "intent": "冷场与收尾",
+    "relationship": "朋友或熟人",
+    "decision": "用户聊设备参数，对方说不懂；双方在餐厅等菜，用户想自然继续聊天。",
+    "tunes": [
+      "S005"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B01"
+    ],
+    "status": "候选",
+    "keywords": [
+      "聚会聊专业话题冷场"
+    ],
+    "path": "scenes/cards/C0017.md"
+  },
+  {
+    "id": "C0018",
+    "title": "茶水间没话接",
+    "category": "工作与日常事务",
+    "topic": "冷场与收尾",
+    "intent": "冷场与收尾",
+    "relationship": "同事或事务协作对象",
+    "decision": "用户问周末过得怎样，同事只说还行；同事刚拿起一盒茶，用户对味道有兴趣。",
+    "tunes": [
+      "S005"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B01"
+    ],
+    "status": "候选",
+    "keywords": [
+      "茶水间没话接"
+    ],
+    "path": "scenes/cards/C0018.md"
+  },
+  {
+    "id": "C0019",
+    "title": "朋友喜欢的电影，自己没看进去",
+    "category": "朋友与人情",
+    "topic": "表达分歧",
+    "intent": "表达分歧",
+    "relationship": "朋友或熟人",
+    "decision": "朋友说电影很好，用户觉得节奏慢，想聊不同感受而不是附和。",
+    "tunes": [
+      "S006"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B01"
+    ],
+    "status": "候选",
+    "keywords": [
+      "朋友喜欢的电影，自己没看进去"
+    ],
+    "path": "scenes/cards/C0019.md"
+  },
+  {
+    "id": "C0020",
+    "title": "同事希望方案页更热闹",
+    "category": "工作与日常事务",
+    "topic": "表达分歧",
+    "intent": "表达分歧",
+    "relationship": "同事或事务协作对象",
+    "decision": "同事提议加动画，用户负责汇报，认为这一页先让人看清结论更重要，愿意讨论。",
+    "tunes": [
+      "S006"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B01"
+    ],
+    "status": "候选",
+    "keywords": [
+      "同事希望方案页更热闹"
+    ],
+    "path": "scenes/cards/C0020.md"
+  },
+  {
+    "id": "C0021",
+    "title": "不去大饭局但想单独见朋友",
+    "category": "朋友与人情",
+    "topic": "替代活动",
+    "intent": "替代活动",
+    "relationship": "朋友或熟人",
+    "decision": "用户不想参加周六十几人的饭局，想周日下午和朋友喝茶。",
+    "tunes": [
+      "S007"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "X01"
+    ],
+    "status": "候选",
+    "keywords": [
+      "不去大饭局但想单独见朋友"
+    ],
+    "path": "scenes/cards/C0021.md"
+  },
+  {
+    "id": "C0022",
+    "title": "不唱歌但愿意散步",
+    "category": "认识与约会",
+    "topic": "替代活动",
+    "intent": "替代活动",
+    "relationship": "认识不久的约会对象",
+    "decision": "朋友约晚上唱歌，用户不想去，愿意当天晚饭后一起散步。",
+    "tunes": [
+      "S007"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "X01"
+    ],
+    "status": "候选",
+    "keywords": [
+      "不唱歌但愿意散步"
+    ],
+    "path": "scenes/cards/C0022.md"
+  },
+  {
+    "id": "C0023",
+    "title": "真想单独见，但还定不了日期",
+    "category": "朋友与人情",
+    "topic": "替代活动",
+    "intent": "替代活动",
+    "relationship": "朋友或熟人",
+    "decision": "用户不去这次大聚会，确实愿意与邀请者单独喝咖啡，但目前无法确定时间，也不想承诺由自己主动约。",
+    "tunes": [
+      "S007"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "X01"
+    ],
+    "status": "候选",
+    "keywords": [
+      "真想单独见，但还定不了日期"
+    ],
+    "path": "scenes/cards/C0023.md"
+  },
+  {
+    "id": "C0024",
+    "title": "吃饭后不续摊",
+    "category": "朋友与人情",
+    "topic": "限定参与范围",
+    "intent": "限定参与范围",
+    "relationship": "朋友或熟人",
+    "decision": "用户愿意吃晚饭，但不想去后面的酒吧。",
+    "tunes": [
+      "S008"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A02",
+      "A03"
+    ],
+    "status": "候选",
+    "keywords": [
+      "吃饭后不续摊"
+    ],
+    "path": "scenes/cards/C0024.md"
+  },
+  {
+    "id": "C0025",
+    "title": "聚会只待到八点",
+    "category": "父母与亲戚",
+    "topic": "限定参与范围",
+    "intent": "限定参与范围",
+    "relationship": "父母或亲戚",
+    "decision": "用户愿意去生日聚会，已决定八点离开，尚未承诺帮收场。",
+    "tunes": [
+      "S008"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A02",
+      "A03"
+    ],
+    "status": "候选",
+    "keywords": [
+      "聚会只待到八点"
+    ],
+    "path": "scenes/cards/C0025.md"
+  },
+  {
+    "id": "C0026",
+    "title": "被劝碰一杯",
+    "category": "工作与日常事务",
+    "topic": "席间劝说",
+    "intent": "席间劝说",
+    "relationship": "同事或事务协作对象",
+    "decision": "用户今晚不喝酒，手里拿着茶，愿意碰杯。",
+    "tunes": [
+      "S009"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A02"
+    ],
+    "status": "候选",
+    "keywords": [
+      "被劝碰一杯"
+    ],
+    "path": "scenes/cards/C0026.md"
+  },
+  {
+    "id": "C0027",
+    "title": "长辈不断夹菜",
+    "category": "父母与亲戚",
+    "topic": "席间劝说",
+    "intent": "席间劝说",
+    "relationship": "父母或亲戚",
+    "decision": "用户确实吃饱了，想让长辈停下来。",
+    "tunes": [
+      "S009"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A02"
+    ],
+    "status": "候选",
+    "keywords": [
+      "长辈不断夹菜"
+    ],
+    "path": "scenes/cards/C0027.md"
+  },
+  {
+    "id": "C0028",
+    "title": "维修报价说不清",
+    "category": "工作与日常事务",
+    "topic": "确认条件",
+    "intent": "确认条件",
+    "relationship": "同事或事务协作对象",
+    "decision": "师傅催用户先付定金，尚未说明材料、工费和工期，用户想先比较。",
+    "tunes": [
+      "S010"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B05a"
+    ],
+    "status": "候选",
+    "keywords": [
+      "维修报价说不清"
+    ],
+    "path": "scenes/cards/C0028.md"
+  },
+  {
+    "id": "C0029",
+    "title": "朋友拉进合作",
+    "category": "朋友与人情",
+    "topic": "确认条件",
+    "intent": "确认条件",
+    "relationship": "朋友或熟人",
+    "decision": "朋友说先答应再讲细节，用户尚不清楚自己要做什么。",
+    "tunes": [
+      "S010"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B05a"
+    ],
+    "status": "候选",
+    "keywords": [
+      "朋友拉进合作"
+    ],
+    "path": "scenes/cards/C0029.md"
+  },
+  {
+    "id": "C0030",
+    "title": "新增服务后调整报价",
+    "category": "工作与日常事务",
+    "topic": "安排调整",
+    "intent": "安排调整",
+    "relationship": "同事或事务协作对象",
+    "decision": "客户新增两页设计，用户已核算需要加600元，还未获客户同意。",
+    "tunes": [
+      "S011"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B05b"
+    ],
+    "status": "候选",
+    "keywords": [
+      "新增服务后调整报价"
+    ],
+    "path": "scenes/cards/C0030.md"
+  },
+  {
+    "id": "C0031",
+    "title": "讨论会需要延后",
+    "category": "工作与日常事务",
+    "topic": "安排调整",
+    "intent": "安排调整",
+    "relationship": "同事或事务协作对象",
+    "decision": "负责人前一场会议已确定延到三点，用户提议原三点的讨论改三点半，需要大家确认。",
+    "tunes": [
+      "S011"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B05b"
+    ],
+    "status": "候选",
+    "keywords": [
+      "讨论会需要延后"
+    ],
+    "path": "scenes/cards/C0031.md"
+  },
+  {
+    "id": "C0032",
+    "title": "把截止日期说早了",
+    "category": "工作与日常事务",
+    "topic": "事实更正",
+    "intent": "事实更正",
+    "relationship": "同事或事务协作对象",
+    "decision": "用户刚在群里说周三交，实际通知是周五，想更正。",
+    "tunes": [
+      "S012"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B06"
+    ],
+    "status": "候选",
+    "keywords": [
+      "把截止日期说早了"
+    ],
+    "path": "scenes/cards/C0032.md"
+  },
+  {
+    "id": "C0033",
+    "title": "错怪朋友没回复",
+    "category": "朋友与人情",
+    "topic": "事实更正",
+    "intent": "事实更正",
+    "relationship": "朋友或熟人",
+    "decision": "用户刚抱怨朋友没回消息，后来发现自己漏看了。",
+    "tunes": [
+      "S012"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B06"
+    ],
+    "status": "候选",
+    "keywords": [
+      "错怪朋友没回复"
+    ],
+    "path": "scenes/cards/C0033.md"
+  },
+  {
+    "id": "C0034",
+    "title": "同事的汇报被抢着补充",
+    "category": "工作与日常事务",
+    "topic": "发言顺序",
+    "intent": "发言顺序",
+    "relationship": "同事或事务协作对象",
+    "decision": "同事刚开始讲方案，另一人不断抢答，用户想让他讲完。",
+    "tunes": [
+      "S013"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B06"
+    ],
+    "status": "候选",
+    "keywords": [
+      "同事的汇报被抢着补充"
+    ],
+    "path": "scenes/cards/C0034.md"
+  },
+  {
+    "id": "C0035",
+    "title": "自己的话总被接走",
+    "category": "朋友与人情",
+    "topic": "发言顺序",
+    "intent": "发言顺序",
+    "relationship": "朋友或熟人",
+    "decision": "用户还没说完活动安排，对方接连插话，想先把关键安排讲完。",
+    "tunes": [
+      "S013"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B06"
+    ],
+    "status": "候选",
+    "keywords": [
+      "自己的话总被接走"
+    ],
+    "path": "scenes/cards/C0035.md"
+  },
+  {
+    "id": "C0036",
+    "title": "朋友面试失利",
+    "category": "朋友与人情",
+    "topic": "失意支持",
+    "intent": "失意支持",
+    "relationship": "朋友或熟人",
+    "decision": "朋友说又被拒了，用户曾劝他换方向，现在只想安慰，愿意听。",
+    "tunes": [
+      "S014"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "朋友面试失利"
+    ],
+    "path": "scenes/cards/C0036.md"
+  },
+  {
+    "id": "C0037",
+    "title": "同事方案未通过",
+    "category": "工作与日常事务",
+    "topic": "失意支持",
+    "intent": "失意支持",
+    "relationship": "同事或事务协作对象",
+    "decision": "同事的方案没过，用户的过了，同事来倾诉，用户愿意陪他梳理反馈。",
+    "tunes": [
+      "S014"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "同事方案未通过"
+    ],
+    "path": "scenes/cards/C0037.md"
+  },
+  {
+    "id": "C0038",
+    "title": "请朋友看简历",
+    "category": "朋友与人情",
+    "topic": "具体求助",
+    "intent": "具体求助",
+    "relationship": "朋友或熟人",
+    "decision": "用户已改好简历，只想请朋友看项目经历这一段，本周内给意见即可。",
+    "tunes": [
+      "S015"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B01"
+    ],
+    "status": "候选",
+    "keywords": [
+      "请朋友看简历"
+    ],
+    "path": "scenes/cards/C0038.md"
+  },
+  {
+    "id": "C0039",
+    "title": "向同事请教表格",
+    "category": "工作与日常事务",
+    "topic": "具体求助",
+    "intent": "具体求助",
+    "relationship": "同事或事务协作对象",
+    "decision": "用户在公式这一步卡住，愿意把报错截图给同事，无明确截止时间。",
+    "tunes": [
+      "S015"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "B01"
+    ],
+    "status": "候选",
+    "keywords": [
+      "向同事请教表格"
+    ],
+    "path": "scenes/cards/C0039.md"
+  },
+  {
+    "id": "C0040",
+    "title": "探亲住哪里",
+    "category": "父母与亲戚",
+    "topic": "共同决定",
+    "intent": "共同决定",
+    "relationship": "父母或亲戚",
+    "decision": "夫妻已决定探亲时住酒店、和父母一起吃饭，用户向自己的父母说明，不想把责任推给伴侣。",
+    "tunes": [
+      "S016"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A03"
+    ],
+    "status": "候选",
+    "keywords": [
+      "探亲住哪里"
+    ],
+    "path": "scenes/cards/C0040.md"
+  },
+  {
+    "id": "C0041",
+    "title": "朋友共同退出活动",
+    "category": "朋友与人情",
+    "topic": "共同决定",
+    "intent": "共同决定",
+    "relationship": "朋友或熟人",
+    "decision": "两位朋友已商量好不报名徒步，由用户告诉组织者。",
+    "tunes": [
+      "S016"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A03"
+    ],
+    "status": "候选",
+    "keywords": [
+      "朋友共同退出活动"
+    ],
+    "path": "scenes/cards/C0041.md"
+  },
+  {
+    "id": "C0042",
+    "title": "每周都被约下班聚餐",
+    "category": "工作与日常事务",
+    "topic": "长期活动安排",
+    "intent": "长期活动安排",
+    "relationship": "同事或事务协作对象",
+    "decision": "同事每周组自愿饭局；用户已决定这个月下班后的聚餐都不参加，愿意提前说明，不想影响平时相处。",
+    "tunes": [
+      "S017"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "X01",
+      "X03"
+    ],
+    "status": "候选",
+    "keywords": [
+      "每周都被约下班聚餐"
+    ],
+    "path": "scenes/cards/C0042.md"
+  },
+  {
+    "id": "C0043",
+    "title": "亲戚每个周末都叫打牌",
+    "category": "父母与亲戚",
+    "topic": "长期活动安排",
+    "intent": "长期活动安排",
+    "relationship": "父母或亲戚",
+    "decision": "用户已决定这阵子不参加周末牌局，没有确定恢复时间，也没答应过具体场次；愿意告诉常邀约的亲戚。",
+    "tunes": [
+      "S017"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "X01",
+      "X03"
+    ],
+    "status": "候选",
+    "keywords": [
+      "亲戚每个周末都叫打牌"
+    ],
+    "path": "scenes/cards/C0043.md"
+  },
+  {
+    "id": "C0044",
+    "title": "亲戚催生但自己还没决定",
+    "category": "父母与亲戚",
+    "topic": "催生",
+    "intent": "暂不表态",
+    "relationship": "父母或亲戚",
+    "decision": "已婚，尚未决定是否要孩子，不想公开夫妻讨论的细节",
+    "tunes": [
+      "S001"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "催生",
+      "暂不表态",
+      "亲戚催生但自己还没决定"
+    ],
+    "path": "scenes/cards/C0044.md"
+  },
+  {
+    "id": "C0045",
+    "title": "被拿来和表亲比较收入",
+    "category": "父母与亲戚",
+    "topic": "比较",
+    "intent": "停止比较",
+    "relationship": "父母或亲戚",
+    "decision": "亲戚当面比较工资，用户不想报自己的收入，也不愿贬低表亲",
+    "tunes": [
+      "S004",
+      "S001"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "比较",
+      "停止比较",
+      "被拿来和表亲比较收入"
+    ],
+    "path": "scenes/cards/C0045.md"
+  },
+  {
+    "id": "C0046",
+    "title": "家人未经同意发自己的照片",
+    "category": "父母与亲戚",
+    "topic": "照片隐私",
+    "intent": "要求删除",
+    "relationship": "父母或亲戚",
+    "decision": "已看到自己不愿公开的照片出现在母亲朋友圈，想请其删除；不要求说明外貌顾虑",
+    "tunes": [
+      "S015",
+      "S001"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "照片隐私",
+      "要求删除",
+      "家人未经同意发自己的照片"
+    ],
+    "path": "scenes/cards/C0046.md"
+  },
+  {
+    "id": "C0047",
+    "title": "不让亲戚替自己报名相亲",
+    "category": "父母与亲戚",
+    "topic": "代做决定",
+    "intent": "撤回代报名",
+    "relationship": "父母或亲戚",
+    "decision": "亲戚已替用户报名相亲活动，用户未同意且不参加；没有确认收费",
+    "tunes": [
+      "S001"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "代做决定",
+      "撤回代报名",
+      "不让亲戚替自己报名相亲"
+    ],
+    "path": "scenes/cards/C0047.md"
+  },
+  {
+    "id": "C0048",
+    "title": "探亲只住两晚",
+    "category": "父母与亲戚",
+    "topic": "探亲",
+    "intent": "限定停留时间",
+    "relationship": "父母或亲戚",
+    "decision": "用户确定回家住周五和周六两晚，周日离开；愿意公开安排",
+    "tunes": [
+      "S008"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "探亲",
+      "限定停留时间",
+      "探亲只住两晚"
+    ],
+    "path": "scenes/cards/C0048.md"
+  },
+  {
+    "id": "C0049",
+    "title": "不想让亲戚来家里留宿",
+    "category": "父母与亲戚",
+    "topic": "留宿",
+    "intent": "拒绝留宿",
+    "relationship": "父母或亲戚",
+    "decision": "亲戚询问能否住家里，用户决定不接待留宿，仍愿一起吃饭",
+    "tunes": [
+      "S002",
+      "S007"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "留宿",
+      "拒绝留宿",
+      "不想让亲戚来家里留宿"
+    ],
+    "path": "scenes/cards/C0049.md"
+  },
+  {
+    "id": "C0050",
+    "title": "朋友开口借钱但不想借",
+    "category": "朋友与人情",
+    "topic": "借钱",
+    "intent": "拒绝借出",
+    "relationship": "朋友或熟人",
+    "decision": "朋友第一次开口，用户已决定不借，不想解释财务状况",
+    "tunes": [
+      "S002"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "借钱",
+      "拒绝借出",
+      "朋友开口借钱但不想借"
+    ],
+    "path": "scenes/cards/C0050.md"
+  },
+  {
+    "id": "C0051",
+    "title": "朋友反复求免费帮忙",
+    "category": "朋友与人情",
+    "topic": "免费帮忙",
+    "intent": "拒绝额外帮忙",
+    "relationship": "朋友或熟人",
+    "decision": "朋友多次请做设计，这次尚未答应，决定不接且不考虑收费接单",
+    "tunes": [
+      "S002",
+      "S003"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "免费帮忙",
+      "拒绝额外帮忙",
+      "朋友反复求免费帮忙"
+    ],
+    "path": "scenes/cards/C0051.md"
+  },
+  {
+    "id": "C0052",
+    "title": "朋友借的书到期还没还",
+    "category": "朋友与人情",
+    "topic": "归还",
+    "intent": "提醒归还",
+    "relationship": "朋友或熟人",
+    "decision": "约好周末还书，已过约定时间，用户本周需要用，想约还书时间",
+    "tunes": [
+      "S024"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "归还",
+      "提醒归还",
+      "朋友借的书到期还没还"
+    ],
+    "path": "scenes/cards/C0052.md"
+  },
+  {
+    "id": "C0053",
+    "title": "合住朋友深夜外放视频",
+    "category": "朋友与人情",
+    "topic": "合住",
+    "intent": "要求降低音量",
+    "relationship": "朋友或熟人",
+    "decision": "晚上已到睡觉时间，用户在卧室能听到公共区域视频声，想请室友戴耳机",
+    "tunes": [
+      "S001",
+      "S015"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "合住",
+      "要求降低音量",
+      "合住朋友深夜外放视频"
+    ],
+    "path": "scenes/cards/C0053.md"
+  },
+  {
+    "id": "C0054",
+    "title": "朋友聚会拿自己隐私开玩笑",
+    "category": "朋友与人情",
+    "topic": "公开玩笑",
+    "intent": "制止公开谈论",
+    "relationship": "朋友或熟人",
+    "decision": "朋友在多人聚会提自己的分手经历，用户不想公开继续讲",
+    "tunes": [
+      "S001"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "公开玩笑",
+      "制止公开谈论",
+      "朋友聚会拿自己隐私开玩笑"
+    ],
+    "path": "scenes/cards/C0054.md"
+  },
+  {
+    "id": "C0055",
+    "title": "朋友约旅行但费用没说清",
+    "category": "朋友与人情",
+    "topic": "共同旅行",
+    "intent": "先问条件",
+    "relationship": "朋友或熟人",
+    "decision": "愿意考虑一起旅行，住宿交通预算和分摊方式尚未确认",
+    "tunes": [
+      "S010"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "共同旅行",
+      "先问条件",
+      "朋友约旅行但费用没说清"
+    ],
+    "path": "scenes/cards/C0055.md"
+  },
+  {
+    "id": "C0056",
+    "title": "已经答应聚会临时取消",
+    "category": "朋友与人情",
+    "topic": "撤回邀约承诺",
+    "intent": "取消已答应安排",
+    "relationship": "朋友或熟人",
+    "decision": "已答应朋友聚餐，朋友已订位，现在确定不去；不想说原因，未核实费用",
+    "tunes": [
+      "S011"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "撤回邀约承诺",
+      "取消已答应安排",
+      "已经答应聚会临时取消"
+    ],
+    "path": "scenes/cards/C0056.md"
+  },
+  {
+    "id": "C0057",
+    "title": "长辈给红包想收但不好意思",
+    "category": "红包与送礼",
+    "topic": "收红包",
+    "intent": "接受心意",
+    "relationship": "长辈",
+    "decision": "长辈过年给自己红包，用户想收；未确认里面数额",
+    "tunes": [
+      "S018"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "收红包",
+      "接受心意",
+      "长辈给红包想收但不好意思",
+      "红包",
+      "想收",
+      "接受"
+    ],
+    "path": "scenes/cards/C0057.md"
+  },
+  {
+    "id": "C0058",
+    "title": "孩子收到亲戚红包后道谢",
+    "category": "红包与送礼",
+    "topic": "收红包",
+    "intent": "代孩子道谢",
+    "relationship": "亲戚",
+    "decision": "孩子还小，家长已决定收下亲戚给孩子的压岁钱；未决定存放用途",
+    "tunes": [
+      "S018"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "收红包",
+      "代孩子道谢",
+      "孩子收到亲戚红包后道谢"
+    ],
+    "path": "scenes/cards/C0058.md"
+  },
+  {
+    "id": "C0059",
+    "title": "朋友转账当生日红包想退回",
+    "category": "红包与送礼",
+    "topic": "退红包",
+    "intent": "拒收转账",
+    "relationship": "朋友",
+    "decision": "朋友发来生日转账，用户决定不收，愿接受生日祝福",
+    "tunes": [
+      "S019"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "退红包",
+      "拒收转账",
+      "朋友转账当生日红包想退回",
+      "红包",
+      "不想收",
+      "拒收",
+      "退回"
+    ],
+    "path": "scenes/cards/C0059.md"
+  },
+  {
+    "id": "C0060",
+    "title": "收到贵重礼物决定退还",
+    "category": "红包与送礼",
+    "topic": "退礼物",
+    "intent": "退回物品",
+    "relationship": "朋友",
+    "decision": "朋友送来贵重礼物，用户确定退还且尚未使用；愿当面交回",
+    "tunes": [
+      "S019"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "退礼物",
+      "退回物品",
+      "收到贵重礼物决定退还",
+      "礼物",
+      "不想收",
+      "拒收",
+      "退回"
+    ],
+    "path": "scenes/cards/C0060.md"
+  },
+  {
+    "id": "C0061",
+    "title": "送朋友小礼物对方客气推辞",
+    "category": "红包与送礼",
+    "topic": "送礼",
+    "intent": "尊重收礼选择",
+    "relationship": "朋友",
+    "decision": "已买普通小礼物想送朋友，对方说太客气了；还未明确拒绝",
+    "tunes": [
+      "S020"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "送礼",
+      "尊重收礼选择",
+      "送朋友小礼物对方客气推辞"
+    ],
+    "path": "scenes/cards/C0061.md"
+  },
+  {
+    "id": "C0062",
+    "title": "旅行回来给同事带伴手礼",
+    "category": "红包与送礼",
+    "topic": "送礼",
+    "intent": "说明来由",
+    "relationship": "同事",
+    "decision": "确实旅行带回当地小点心，准备在办公室自愿分享",
+    "tunes": [
+      "S020"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "送礼",
+      "说明来由",
+      "旅行回来给同事带伴手礼"
+    ],
+    "path": "scenes/cards/C0062.md"
+  },
+  {
+    "id": "C0063",
+    "title": "收到礼物款式不喜欢仍想感谢",
+    "category": "红包与送礼",
+    "topic": "礼物致谢",
+    "intent": "感谢准备",
+    "relationship": "朋友",
+    "decision": "已决定收下朋友挑选的围巾，但不喜欢款式，不愿假夸爱不释手",
+    "tunes": [
+      "S018"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "礼物致谢",
+      "感谢准备",
+      "收到礼物款式不喜欢仍想感谢"
+    ],
+    "path": "scenes/cards/C0063.md"
+  },
+  {
+    "id": "C0064",
+    "title": "别人因帮忙送礼自己不想收",
+    "category": "红包与送礼",
+    "topic": "答谢礼",
+    "intent": "拒收答谢",
+    "relationship": "朋友",
+    "decision": "已帮朋友完成小事，对方送礼，用户不想收；不是应收报酬",
+    "tunes": [
+      "S019"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "答谢礼",
+      "拒收答谢",
+      "别人因帮忙送礼自己不想收"
+    ],
+    "path": "scenes/cards/C0064.md"
+  },
+  {
+    "id": "C0065",
+    "title": "不想参加朋友间固定互送礼",
+    "category": "红包与送礼",
+    "topic": "送礼惯例",
+    "intent": "退出固定安排",
+    "relationship": "朋友",
+    "decision": "一群朋友每年统一凑钱送生日礼，用户决定从下一轮退出，本轮已承担的份额照旧",
+    "tunes": [
+      "S017"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "送礼惯例",
+      "退出固定安排",
+      "不想参加朋友间固定互送礼"
+    ],
+    "path": "scenes/cards/C0065.md"
+  },
+  {
+    "id": "C0066",
+    "title": "受礼后不想立刻承诺回礼",
+    "category": "红包与送礼",
+    "topic": "回礼压力",
+    "intent": "不作回礼承诺",
+    "relationship": "朋友",
+    "decision": "已收下生日礼物，真心感谢但没有回礼计划；对方尚未提出要求",
+    "tunes": [
+      "S018"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "回礼压力",
+      "不作回礼承诺",
+      "受礼后不想立刻承诺回礼"
+    ],
+    "path": "scenes/cards/C0066.md"
+  },
+  {
+    "id": "C0067",
+    "title": "第一次聊天从已知兴趣接话",
+    "category": "认识与约会",
+    "topic": "开场",
+    "intent": "发出具体问题",
+    "relationship": "认识不久的约会对象",
+    "decision": "对方刚提到喜欢徒步，用户确实有兴趣了解，不伪装自己也常去",
+    "tunes": [
+      "S026"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "开场",
+      "发出具体问题",
+      "第一次聊天从已知兴趣接话"
+    ],
+    "path": "scenes/cards/C0067.md"
+  },
+  {
+    "id": "C0068",
+    "title": "想约刚认识的人喝咖啡",
+    "category": "认识与约会",
+    "topic": "邀约",
+    "intent": "发出邀请",
+    "relationship": "认识不久的约会对象",
+    "decision": "双方已正常聊过，用户想约这周末喝咖啡，尚不知道对方时间",
+    "tunes": [
+      "S026"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "邀约",
+      "发出邀请",
+      "想约刚认识的人喝咖啡"
+    ],
+    "path": "scenes/cards/C0068.md"
+  },
+  {
+    "id": "C0069",
+    "title": "对方只回表情想结束本轮聊天",
+    "category": "认识与约会",
+    "topic": "聊天收尾",
+    "intent": "停止追聊",
+    "relationship": "认识不久的约会对象",
+    "decision": "用户连续发起话题，对方只简短回应，用户决定今天不再继续；动机未知",
+    "tunes": [
+      "S005"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "聊天收尾",
+      "停止追聊",
+      "对方只回表情想结束本轮聊天"
+    ],
+    "path": "scenes/cards/C0069.md"
+  },
+  {
+    "id": "C0070",
+    "title": "想表达好感但还没到表白",
+    "category": "认识与约会",
+    "topic": "表达兴趣",
+    "intent": "继续了解",
+    "relationship": "认识不久的约会对象",
+    "decision": "见面聊得愉快，用户想再见一次，尚未确定恋爱关系",
+    "tunes": [
+      "S026"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "表达兴趣",
+      "继续了解",
+      "想表达好感但还没到表白"
+    ],
+    "path": "scenes/cards/C0070.md"
+  },
+  {
+    "id": "C0071",
+    "title": "对方邀请去家里但只愿公共场所见",
+    "category": "认识与约会",
+    "topic": "约会地点",
+    "intent": "限定见面方式",
+    "relationship": "认识不久的约会对象",
+    "decision": "用户愿继续见面，但这次不想去对方家里，愿在咖啡店碰面",
+    "tunes": [
+      "S007"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "约会地点",
+      "限定见面方式",
+      "对方邀请去家里但只愿公共场所见"
+    ],
+    "path": "scenes/cards/C0071.md"
+  },
+  {
+    "id": "C0072",
+    "title": "被拒绝约会后体面结束",
+    "category": "认识与约会",
+    "topic": "面对拒绝",
+    "intent": "接受拒绝",
+    "relationship": "认识不久的约会对象",
+    "decision": "对方已清楚说不想约会，用户想礼貌收住，不再继续追",
+    "tunes": [
+      "S023"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "面对拒绝",
+      "接受拒绝",
+      "被拒绝约会后体面结束"
+    ],
+    "path": "scenes/cards/C0072.md"
+  },
+  {
+    "id": "C0073",
+    "title": "约会迟到想道歉并确认还等不等",
+    "category": "认识与约会",
+    "topic": "约会变更",
+    "intent": "说明延误",
+    "relationship": "认识不久的约会对象",
+    "decision": "自己确实迟到，预计还要二十分钟，尚不知对方是否愿继续等",
+    "tunes": [
+      "S011"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "约会变更",
+      "说明延误",
+      "约会迟到想道歉并确认还等不等"
+    ],
+    "path": "scenes/cards/C0073.md"
+  },
+  {
+    "id": "C0074",
+    "title": "相亲后没有感觉不再继续",
+    "category": "相亲与关系选择",
+    "topic": "结束了解",
+    "intent": "结束关系",
+    "relationship": "相亲对象",
+    "decision": "双方见过一次，用户确定不继续发展，不想评价对方外貌或条件",
+    "tunes": [
+      "S023"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "结束了解",
+      "结束关系",
+      "相亲后没有感觉不再继续"
+    ],
+    "path": "scenes/cards/C0074.md"
+  },
+  {
+    "id": "C0075",
+    "title": "相亲想继续但不急于确定关系",
+    "category": "相亲与关系选择",
+    "topic": "发展节奏",
+    "intent": "放慢进展",
+    "relationship": "相亲对象",
+    "decision": "愿继续了解，对方询问是否确定恋爱，用户尚未准备好承诺",
+    "tunes": [
+      "S010"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "发展节奏",
+      "放慢进展",
+      "相亲想继续但不急于确定关系"
+    ],
+    "path": "scenes/cards/C0075.md"
+  },
+  {
+    "id": "C0076",
+    "title": "不想向介绍人公开拒绝细节",
+    "category": "相亲与关系选择",
+    "topic": "介绍人追问",
+    "intent": "保留评价",
+    "relationship": "介绍人",
+    "decision": "已决定不继续相亲，介绍人追问原因，用户不愿转述对方私事",
+    "tunes": [
+      "S023",
+      "S004"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "介绍人追问",
+      "保留评价",
+      "不想向介绍人公开拒绝细节"
+    ],
+    "path": "scenes/cards/C0076.md"
+  },
+  {
+    "id": "C0077",
+    "title": "向介绍人说明自己的择偶重点",
+    "category": "相亲与关系选择",
+    "topic": "介绍请求",
+    "intent": "说明期待",
+    "relationship": "介绍人",
+    "decision": "用户最看重生活节奏接近、愿沟通，不愿只按收入房产筛选",
+    "tunes": [
+      "S015"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "介绍请求",
+      "说明期待",
+      "向介绍人说明自己的择偶重点"
+    ],
+    "path": "scenes/cards/C0077.md"
+  },
+  {
+    "id": "C0078",
+    "title": "相亲时暂时不公开财务数字",
+    "category": "相亲与关系选择",
+    "topic": "财务隐私",
+    "intent": "暂不披露数字",
+    "relationship": "相亲对象",
+    "decision": "刚认识，对方问存款，用户愿以后认真发展时谈财务，现在不报数",
+    "tunes": [
+      "S004"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "财务隐私",
+      "暂不披露数字",
+      "相亲时暂时不公开财务数字"
+    ],
+    "path": "scenes/cards/C0078.md"
+  },
+  {
+    "id": "C0079",
+    "title": "两个人对定居城市有分歧",
+    "category": "相亲与关系选择",
+    "topic": "重要分歧",
+    "intent": "确认意向",
+    "relationship": "相亲对象",
+    "decision": "用户确定长期留本城，对方想去外地；双方还在了解，没有约定搬迁",
+    "tunes": [
+      "S006",
+      "S010"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "重要分歧",
+      "确认意向",
+      "两个人对定居城市有分歧"
+    ],
+    "path": "scenes/cards/C0079.md"
+  },
+  {
+    "id": "C0080",
+    "title": "父母催相亲结果但自己仍在了解",
+    "category": "相亲与关系选择",
+    "topic": "家人催结果",
+    "intent": "保留决定时间",
+    "relationship": "父母",
+    "decision": "已见过对方且愿继续了解，父母催确定，用户不想汇报聊天细节",
+    "tunes": [
+      "S001"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "家人催结果",
+      "保留决定时间",
+      "父母催相亲结果但自己仍在了解"
+    ],
+    "path": "scenes/cards/C0080.md"
+  },
+  {
+    "id": "C0081",
+    "title": "孩子说被推但家长尚未核实",
+    "category": "家长与老师",
+    "topic": "同伴冲突",
+    "intent": "核实并保护",
+    "relationship": "家长对老师",
+    "decision": "八岁孩子回家说课间被同学推倒，家长未在场，想请老师了解并关注安全",
+    "tunes": [
+      "S021",
+      "S022"
+    ],
+    "source_kind": "原创场景",
+    "sources": [
+      "A07"
+    ],
+    "status": "候选",
+    "keywords": [
+      "同伴冲突",
+      "核实并保护",
+      "孩子说被推但家长尚未核实"
+    ],
+    "path": "scenes/cards/C0081.md"
+  },
+  {
+    "id": "C0082",
+    "title": "老师只说孩子不认真想问具体表现",
+    "category": "家长与老师",
+    "topic": "课堂反馈",
+    "intent": "问具体行为",
+    "relationship": "家长对老师",
+    "decision": "老师发来孩子最近不认真，家长想了解发生时间和具体表现，暂不认定原因",
+    "tunes": [
+      "S021"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "课堂反馈",
+      "问具体行为",
+      "老师只说孩子不认真想问具体表现",
+      "上课走神",
+      "课堂",
+      "不认真"
+    ],
+    "path": "scenes/cards/C0082.md"
+  },
+  {
+    "id": "C0083",
+    "title": "家长群里被点名想私下沟通",
+    "category": "家长与老师",
+    "topic": "沟通场合",
+    "intent": "转私下讨论",
+    "relationship": "家长对老师",
+    "decision": "老师在群里提到孩子的问题，家长希望了解详情并避免公开个人细节",
+    "tunes": [
+      "S021",
+      "S015"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "沟通场合",
+      "转私下讨论",
+      "家长群里被点名想私下沟通"
+    ],
+    "path": "scenes/cards/C0083.md"
+  },
+  {
+    "id": "C0084",
+    "title": "孩子连续反映同一问题想跟进处理",
+    "category": "家长与老师",
+    "topic": "处理跟进",
+    "intent": "要求明确进度",
+    "relationship": "家长对老师",
+    "decision": "上周已向老师反映课间被同学取笑，本周孩子说仍发生；是否属实待进一步核实",
+    "tunes": [
+      "S024",
+      "S021"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "处理跟进",
+      "要求明确进度",
+      "孩子连续反映同一问题想跟进处理"
+    ],
+    "path": "scenes/cards/C0084.md"
+  },
+  {
+    "id": "C0085",
+    "title": "家庭作业要求不清楚先问范围",
+    "category": "家长与老师",
+    "topic": "作业确认",
+    "intent": "核实要求",
+    "relationship": "家长对老师",
+    "decision": "孩子转述要家长做手工，家长不确定应协助还是代做",
+    "tunes": [
+      "S021"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "作业确认",
+      "核实要求",
+      "家庭作业要求不清楚先问范围"
+    ],
+    "path": "scenes/cards/C0085.md"
+  },
+  {
+    "id": "C0086",
+    "title": "对老师批评孩子的方式有异议",
+    "category": "家长与老师",
+    "topic": "表达异议",
+    "intent": "商量处理方式",
+    "relationship": "家长对老师",
+    "decision": "孩子说被当众叫笨，家长尚未核实，愿处理孩子行为但不接受羞辱式称呼",
+    "tunes": [
+      "S021",
+      "S006"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "表达异议",
+      "商量处理方式",
+      "对老师批评孩子的方式有异议"
+    ],
+    "path": "scenes/cards/C0086.md"
+  },
+  {
+    "id": "C0087",
+    "title": "想约老师沟通又怕打扰",
+    "category": "家长与老师",
+    "topic": "约时间",
+    "intent": "提出沟通请求",
+    "relationship": "家长对老师",
+    "decision": "家长想谈孩子近期适应情况，预计十分钟，事情不紧急，不知道老师何时方便",
+    "tunes": [
+      "S015"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "约时间",
+      "提出沟通请求",
+      "想约老师沟通又怕打扰"
+    ],
+    "path": "scenes/cards/C0087.md"
+  },
+  {
+    "id": "C0088",
+    "title": "感谢老师具体帮助但不送礼",
+    "category": "家长与老师",
+    "topic": "教师致谢",
+    "intent": "感谢行动",
+    "relationship": "家长对老师",
+    "decision": "老师确实帮孩子熟悉新班级，孩子愿意上学了，家长想发消息感谢",
+    "tunes": [
+      "S018"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "教师致谢",
+      "感谢行动",
+      "感谢老师具体帮助但不送礼"
+    ],
+    "path": "scenes/cards/C0088.md"
+  },
+  {
+    "id": "C0089",
+    "title": "孩子说被欺负怕告状挨骂",
+    "category": "父母与孩子",
+    "topic": "欺负与求助",
+    "intent": "支持孩子求助",
+    "relationship": "家长对孩子",
+    "decision": "八岁孩子说同学多次推自己，怕告诉家长会被骂；家长愿了解并联系学校",
+    "tunes": [
+      "S022"
+    ],
+    "source_kind": "原创场景",
+    "sources": [
+      "A07"
+    ],
+    "status": "候选",
+    "keywords": [
+      "欺负与求助",
+      "支持孩子求助",
+      "孩子说被欺负怕告状挨骂"
+    ],
+    "path": "scenes/cards/C0089.md"
+  },
+  {
+    "id": "C0090",
+    "title": "孩子被起侮辱性外号",
+    "category": "父母与孩子",
+    "topic": "同伴言语伤害",
+    "intent": "制止并求助",
+    "relationship": "家长对孩子",
+    "decision": "十岁孩子反复被叫不喜欢的外号，愿意学一句拒绝的话；现场暂时安全",
+    "tunes": [
+      "S022",
+      "S001"
+    ],
+    "source_kind": "原创场景",
+    "sources": [
+      "A07"
+    ],
+    "status": "候选",
+    "keywords": [
+      "同伴言语伤害",
+      "制止并求助",
+      "孩子被起侮辱性外号"
+    ],
+    "path": "scenes/cards/C0090.md"
+  },
+  {
+    "id": "C0091",
+    "title": "孩子受委屈只想先哭一会儿",
+    "category": "父母与孩子",
+    "topic": "情绪支持",
+    "intent": "陪伴倾听",
+    "relationship": "家长对孩子",
+    "decision": "六岁孩子在安全环境中哭，暂不愿讲原因，家长想陪他而不催供述",
+    "tunes": [
+      "S014"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "情绪支持",
+      "陪伴倾听",
+      "孩子受委屈只想先哭一会儿"
+    ],
+    "path": "scenes/cards/C0091.md"
+  },
+  {
+    "id": "C0092",
+    "title": "孩子打翻杯子不想先骂人",
+    "category": "父母与孩子",
+    "topic": "意外与收拾",
+    "intent": "处理具体行为",
+    "relationship": "家长对孩子",
+    "decision": "五岁孩子意外碰倒水杯，水洒在桌上；杯子没碎，没人受伤",
+    "tunes": [
+      "S025"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "意外与收拾",
+      "处理具体行为",
+      "孩子打翻杯子不想先骂人"
+    ],
+    "path": "scenes/cards/C0092.md"
+  },
+  {
+    "id": "C0093",
+    "title": "孩子打人后怎样制止",
+    "category": "父母与孩子",
+    "topic": "冲突与规则",
+    "intent": "停止伤害",
+    "relationship": "家长对孩子",
+    "decision": "七岁孩子争玩具时打了别人，家长在场，需先分开并检查双方情况",
+    "tunes": [
+      "S025"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "冲突与规则",
+      "停止伤害",
+      "孩子打人后怎样制止"
+    ],
+    "path": "scenes/cards/C0093.md"
+  },
+  {
+    "id": "C0094",
+    "title": "大人吼错孩子后道歉",
+    "category": "父母与孩子",
+    "topic": "亲子修复",
+    "intent": "更正并道歉",
+    "relationship": "家长对孩子",
+    "decision": "九岁孩子被误以为弄坏物品，家长已查明不是孩子做的，先前曾大声责怪",
+    "tunes": [
+      "S012"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "亲子修复",
+      "更正并道歉",
+      "大人吼错孩子后道歉"
+    ],
+    "path": "scenes/cards/C0094.md"
+  },
+  {
+    "id": "C0095",
+    "title": "约好的屏幕时间到了孩子不肯停",
+    "category": "父母与孩子",
+    "topic": "约定与规则",
+    "intent": "执行已有约定",
+    "relationship": "家长对孩子",
+    "decision": "十岁孩子事先同意玩二十分钟，现已到时；允许保存当前进度但不再开一局",
+    "tunes": [
+      "S025",
+      "S024"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "约定与规则",
+      "执行已有约定",
+      "约好的屏幕时间到了孩子不肯停"
+    ],
+    "path": "scenes/cards/C0095.md"
+  },
+  {
+    "id": "C0096",
+    "title": "孩子考试不理想怕被比较",
+    "category": "父母与孩子",
+    "topic": "学习挫折",
+    "intent": "支持并了解需要",
+    "relationship": "家长对孩子",
+    "decision": "十一岁孩子成绩不理想，已说很难过；家长想了解哪里困难，不拿别人刺激",
+    "tunes": [
+      "S014",
+      "S021"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "学习挫折",
+      "支持并了解需要",
+      "孩子考试不理想怕被比较"
+    ],
+    "path": "scenes/cards/C0096.md"
+  },
+  {
+    "id": "C0097",
+    "title": "被加任务但当前排期已满",
+    "category": "工作与日常事务",
+    "topic": "任务范围",
+    "intent": "确认优先级",
+    "relationship": "同事或事务协作对象",
+    "decision": "正在做两项已排期任务，主管又加一项；用户无法同时按原时限完成，想请其排序",
+    "tunes": [
+      "S010"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "任务范围",
+      "确认优先级",
+      "被加任务但当前排期已满"
+    ],
+    "path": "scenes/cards/C0097.md"
+  },
+  {
+    "id": "C0098",
+    "title": "同事答应的资料到期未给",
+    "category": "工作与日常事务",
+    "topic": "进度跟进",
+    "intent": "催交付",
+    "relationship": "同事或事务协作对象",
+    "decision": "对方约好今天上午给资料，现已下午，用户需要据此做下一步",
+    "tunes": [
+      "S024"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "进度跟进",
+      "催交付",
+      "同事答应的资料到期未给"
+    ],
+    "path": "scenes/cards/C0098.md"
+  },
+  {
+    "id": "C0099",
+    "title": "工作群里别人把自己的意思传错",
+    "category": "工作与日常事务",
+    "topic": "澄清转述",
+    "intent": "更正范围",
+    "relationship": "同事或事务协作对象",
+    "decision": "同事在群里说自己已同意周末加班，用户实际上只说先确认，没有答应",
+    "tunes": [
+      "S012"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "澄清转述",
+      "更正范围",
+      "工作群里别人把自己的意思传错"
+    ],
+    "path": "scenes/cards/C0099.md"
+  },
+  {
+    "id": "C0100",
+    "title": "服务不符合约定想请对方重做",
+    "category": "工作与日常事务",
+    "topic": "服务异议",
+    "intent": "要求按约处理",
+    "relationship": "同事或事务协作对象",
+    "decision": "已约定把文件印成双面，对方印成单面，用户确认订单记录后要求更正",
+    "tunes": [
+      "S024"
+    ],
+    "source_kind": "原创场景",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "服务异议",
+      "要求按约处理",
+      "服务不符合约定想请对方重做"
+    ],
+    "path": "scenes/cards/C0100.md"
+  }
+]

@@ -80,7 +80,7 @@
 - **A04** [CNVC：The Purpose of Nonviolent Communication](https://www.cnvc.org/about/purpose-of-nvc)。已读公开原则，支持愿意表达感受时的 S001；不把坦白感受当所有场景的义务。
 - **A05** [CCI：Assertiveness 资源入口](https://www.cci.health.wa.gov.au/en/Resources/Looking-After-Yourself/Assertiveness)。已确认拒绝模块入口；此前 PDF 正文读取失败，仍为线索，不声称已读模块。
 - **A06** [love is respect：How to set boundaries](https://www.loveisrespect.org/everyone-deserves-a-healthy-relationship/how-to-set-boundaries/)。已读公开说明；保留双方意愿与限制，供第二批约会关系方向参考。
-- **A07** [UNICEF：Bullying](https://www.unicef.org/parenting/child-care/bullying)。已读倾听、支持孩子及联系学校部分；第二批家校方向的参考，不能把话术当作保护行动的替代。
+- **A07** [UNICEF：Bullying](https://www.unicef.org/parenting/child-care/bullying)。已读倾听、支持孩子及联系学校部分；本轮复读后用于 S021、S022 的保护方向及 C0081、C0089、C0090；中文场景和措辞为原创，不是 UNICEF 原句。不能把话术当作保护行动的替代。
 
 ## monitor 抓取：六篇小红书笔记
 
@@ -108,6 +108,12 @@
 - X03、X02 → S003 新样例：对方说不喝酒也能来，仍按用户决定回应，不换新理由。
 - X01 → S007 新样例：愿意单独见面但日期未定，保留意愿、不追加具体承诺。
 - S002 下班邀约样例删除未确认多人时的“你们”，保留实际回家决定。
+
+## 独立场景卡升级（2026-10-01）
+
+旧 43 个样例迁为 C0001—C0043，逐段保留表达与 WHY，原 S 编号及样例标题仍可查。新补 C0044—C0100 共 57 个原创虚构场景，新增 S018—S026 九首机制；没有新增书籍全文，不把这些原创场景计作蔡康永或刘墉的书中摘句。A07 只支持相关儿童保护方向，未提供本库具体中文话术。
+
+完整数量与分类从[场景入口](../scenes/README.md)读取；格式与检索脚本检查、模型行为观察和人工验收分开记录。新增卡均为候选。
 
 ## 下一次增加材料
 
