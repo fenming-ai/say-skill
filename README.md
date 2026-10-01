@@ -64,6 +64,8 @@ python3 scripts/scenes.py search "红包 不想收" --category 红包与送礼
 
 命令在仓库目录运行，需要 Python 3.9+；不运行脚本也可以直接浏览 Markdown 分类页。检索按词面排序，只给候选，是否适用仍要读条件。
 
+抓取的原文与片段先放[本地素材库](materials/README.md)，阅读版去掉来源杂项，出处单列，评估后再进入曲子库；素材数量不计入曲目数量。
+
 想贡献素材，可以说：
 
 ```text
