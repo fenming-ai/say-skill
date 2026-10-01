@@ -2165,5 +2165,31 @@
       "服务不符合约定想请对方重做"
     ],
     "path": "scenes/cards/C0100.md"
+  },
+  {
+    "id": "C0101",
+    "title": "过年朋友发红包，收下心意但不收钱",
+    "category": "红包与送礼",
+    "topic": "婉拒节日红包",
+    "intent": "拒收红包",
+    "relationship": "平常能轻松聊天的朋友",
+    "decision": "朋友过年发红包；用户不想收钱，愿意接受祝福；尚未领取，不希望增加回礼或后约义务。",
+    "tunes": [
+      "S019"
+    ],
+    "source_kind": "用户素材",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "红包",
+      "过年",
+      "新年",
+      "不想收",
+      "心意",
+      "拒收",
+      "回礼"
+    ],
+    "review": "tests/red-envelope-feedback-2026-10-01.md",
+    "path": "scenes/cards/C0101.md"
   }
 ]

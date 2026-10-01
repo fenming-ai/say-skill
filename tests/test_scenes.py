@@ -30,7 +30,10 @@ def main():
     rows, tunes = scenes.load()
     assert len({r['id'] for r in rows}) == len(rows)
     assert scenes.rank(rows, 'qzxw_unrelated_932') == []
-    assert scenes.rank(rows, '红包 不想收', '红包与送礼') == []
+    matches = scenes.rank(rows, '红包 不想收', '红包与送礼')
+    assert matches and matches[0]['id'] == 'C0101'
+    assert matches[0]['source_kind'] == '用户素材'
+    assert all(r['id'] != 'C0059' for r in matches)
     assert all(r['status'] != '待重审' for r in scenes.rank(rows, '', limit=1000))
     refusals = scenes.rank(rows, '红包 不想收', '红包与送礼', include_drafts=True)
     assert any(r['id'] == 'C0059' for r in refusals)
@@ -42,7 +45,7 @@ def main():
 
     with tempfile.TemporaryDirectory() as directory:
         temp = Path(directory)
-        for name in ['scenes', 'tunes', 'references', 'scripts']:
+        for name in ['scenes', 'tunes', 'references', 'scripts', 'tests']:
             shutil.copytree(ROOT / name, temp / name)
         path = temp / 'scenes/cards/C0059.md'
         original = path.read_text()
