@@ -38,6 +38,10 @@ def main():
     refusals = scenes.rank(rows, '红包 不想收', '红包与送礼', include_drafts=True)
     assert any(r['id'] == 'C0059' for r in refusals)
     assert scenes.rank(rows, '上课走神', '家长与老师', include_drafts=True)[0]['id'] == 'C0082'
+    assert scenes.rank(rows, '朋友刚换工作 中秋祝福 不想约饭')[0]['id'] == 'C0135'
+    assert scenes.rank(rows, '孩子最近不愿读英语 怎么问老师')[0]['id'] == 'C0136'
+    assert scenes.rank(rows, '开会结束 谁负责 什么时候完成')[0]['id'] == 'C0128'
+    assert scenes.rank(rows, '孩子说你烦不烦 少管我')[0]['id'] == 'C0134'
     only = scenes.rank(rows, '红包', '红包与送礼', '拒收转账', include_drafts=True)
     assert only and all(r['intent'] == '拒收转账' for r in only)
     assert all(r['category'] == '红包与送礼' for r in refusals)
