@@ -1765,9 +1765,11 @@
     "tunes": [
       "S021"
     ],
-    "source_kind": "原创场景",
-    "sources": [],
-    "status": "待重审",
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
     "keywords": [
       "课堂反馈",
       "问具体行为",
@@ -1855,9 +1857,11 @@
       "S021",
       "S006"
     ],
-    "source_kind": "原创场景",
-    "sources": [],
-    "status": "待重审",
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
     "keywords": [
       "表达异议",
       "商量处理方式",
@@ -1876,9 +1880,11 @@
     "tunes": [
       "S015"
     ],
-    "source_kind": "原创场景",
-    "sources": [],
-    "status": "待重审",
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
     "keywords": [
       "约时间",
       "提出沟通请求",
@@ -1895,11 +1901,14 @@
     "relationship": "家长对老师",
     "decision": "老师确实帮孩子熟悉新班级，孩子愿意上学了，家长想发消息感谢",
     "tunes": [
-      "S018"
+      "S018",
+      "S031"
     ],
-    "source_kind": "原创场景",
-    "sources": [],
-    "status": "待重审",
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
     "keywords": [
       "教师致谢",
       "感谢行动",
@@ -2704,5 +2713,341 @@
       "愿不愿听"
     ],
     "path": "scenes/cards/C0121.md"
+  },
+  {
+    "id": "C0122",
+    "title": "同事汇报时把风险讲清楚",
+    "category": "工作与日常事务",
+    "topic": "具体认可",
+    "intent": "夸具体表达方法",
+    "relationship": "同事之间",
+    "decision": "同事在汇报中先讲风险再讲方案，用户因此更容易理解，想表达认可。",
+    "tunes": [
+      "S036"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "夸同事",
+      "汇报",
+      "具体赞美",
+      "风险",
+      "认可"
+    ],
+    "path": "scenes/cards/C0122.md"
+  },
+  {
+    "id": "C0123",
+    "title": "约会时欣赏对方体谅服务员",
+    "category": "认识与约会",
+    "topic": "表达欣赏",
+    "intent": "夸具体行为",
+    "relationship": "正在了解中的约会对象",
+    "decision": "约会中对方主动给端菜的服务员让路并道谢，用户确实觉得这个细节很好。",
+    "tunes": [
+      "S036"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "约会",
+      "夸人",
+      "具体行为",
+      "欣赏",
+      "服务员",
+      "喜欢的人",
+      "不油腻",
+      "泡妞",
+      "怎么夸"
+    ],
+    "path": "scenes/cards/C0123.md"
+  },
+  {
+    "id": "C0124",
+    "title": "孩子在家写作业突然变慢",
+    "category": "家长与老师",
+    "topic": "课堂状态",
+    "intent": "带着观察询问",
+    "relationship": "家长对老师",
+    "decision": "孩子这周在家写作业明显比以前慢，家长不知道学校是否也有变化，想问老师。",
+    "tunes": [
+      "S037",
+      "S021"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "家校沟通",
+      "写作业慢",
+      "课堂",
+      "老师",
+      "具体观察"
+    ],
+    "path": "scenes/cards/C0124.md"
+  },
+  {
+    "id": "C0125",
+    "title": "退款数量上升想问售后情况",
+    "category": "工作与日常事务",
+    "topic": "跨团队询问",
+    "intent": "用观察换取具体信息",
+    "relationship": "协作团队同事",
+    "decision": "用户在报表中看到本周退款数量比前两周高，但不知道售后接到的具体原因。",
+    "tunes": [
+      "S037",
+      "S021"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "退款",
+      "售后",
+      "数据变化",
+      "跨团队",
+      "问原因"
+    ],
+    "path": "scenes/cards/C0125.md"
+  },
+  {
+    "id": "C0126",
+    "title": "项目会争工具时先确认目标",
+    "category": "工作与日常事务",
+    "topic": "会议聚焦",
+    "intent": "先确认优先目标",
+    "relationship": "项目成员之间",
+    "decision": "会议正在争论使用哪个工具，但有人重视按时上线，有人重视后续维护，优先目标尚未说清。",
+    "tunes": [
+      "S038",
+      "S006"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "会议",
+      "目标",
+      "工具选择",
+      "上线",
+      "维护"
+    ],
+    "path": "scenes/cards/C0126.md"
+  },
+  {
+    "id": "C0127",
+    "title": "家庭出游争路线时先确认重点",
+    "category": "父母与亲戚",
+    "topic": "共同安排",
+    "intent": "先确认出游重点",
+    "relationship": "共同出游的家人",
+    "decision": "家人正在争自驾还是坐高铁；有人带老人，有人想多玩几个地方，重点尚未确认。",
+    "tunes": [
+      "S038",
+      "S006"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "家庭出游",
+      "路线",
+      "自驾",
+      "高铁",
+      "目标"
+    ],
+    "path": "scenes/cards/C0127.md"
+  },
+  {
+    "id": "C0128",
+    "title": "会议结束确认负责人和时间",
+    "category": "工作与日常事务",
+    "topic": "会议收口",
+    "intent": "确认行动分工",
+    "relationship": "项目成员之间",
+    "decision": "会议已讨论出两项行动，但记录中还没有明确负责人和反馈时间。",
+    "tunes": [
+      "S039"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "会议收尾",
+      "负责人",
+      "截止时间",
+      "分工",
+      "行动项"
+    ],
+    "path": "scenes/cards/C0128.md"
+  },
+  {
+    "id": "C0129",
+    "title": "家庭聚餐前确认分工",
+    "category": "父母与亲戚",
+    "topic": "家庭分工",
+    "intent": "确认谁负责哪一步",
+    "relationship": "一起筹备聚餐的家人",
+    "decision": "家人已经同意周末在家聚餐，但买菜、接老人和做饭由谁负责还没说清。",
+    "tunes": [
+      "S039"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "家庭聚餐",
+      "分工",
+      "买菜",
+      "接老人",
+      "做饭"
+    ],
+    "path": "scenes/cards/C0129.md"
+  },
+  {
+    "id": "C0130",
+    "title": "给老师发中秋祝福",
+    "category": "家长与老师",
+    "topic": "节日祝福",
+    "intent": "感谢具体照看并祝福",
+    "relationship": "家长对老师",
+    "decision": "老师这学期确实帮助孩子适应新班级，家长想发一条简短中秋祝福，不送礼。",
+    "tunes": [
+      "S040",
+      "S031"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "中秋祝福",
+      "老师",
+      "家长",
+      "感谢",
+      "节日"
+    ],
+    "path": "scenes/cards/C0130.md"
+  },
+  {
+    "id": "C0131",
+    "title": "给最近连续加班的朋友发祝福",
+    "category": "朋友与人情",
+    "topic": "节日关心",
+    "intent": "结合近况送祝福",
+    "relationship": "关系不错的朋友",
+    "decision": "朋友最近主动说连续加班，用户想在节日发一句关心，不替对方安排见面。",
+    "tunes": [
+      "S040"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "节日祝福",
+      "朋友",
+      "加班",
+      "关心",
+      "休息"
+    ],
+    "path": "scenes/cards/C0131.md"
+  },
+  {
+    "id": "C0132",
+    "title": "给客户发送两份方案资料",
+    "category": "工作与日常事务",
+    "topic": "发送资料",
+    "intent": "说明材料用途",
+    "relationship": "服务方对仍在了解的客户",
+    "decision": "客户同意接收资料；用户准备发送功能清单和实施安排，希望客户先判断是否满足需求。",
+    "tunes": [
+      "S041"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "客户",
+      "发送资料",
+      "方案",
+      "功能清单",
+      "实施安排"
+    ],
+    "path": "scenes/cards/C0132.md"
+  },
+  {
+    "id": "C0133",
+    "title": "请同事先看方案中的风险页",
+    "category": "工作与日常事务",
+    "topic": "协作审阅",
+    "intent": "限定本轮阅读范围",
+    "relationship": "共同负责项目的同事",
+    "decision": "同事已经答应帮看方案；用户这轮只需要确认风险判断，完整文档共二十页。",
+    "tunes": [
+      "S041",
+      "S015"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "同事",
+      "审方案",
+      "风险页",
+      "阅读范围",
+      "材料"
+    ],
+    "path": "scenes/cards/C0133.md"
+  },
+  {
+    "id": "C0134",
+    "title": "孩子语气很冲但愿意继续说",
+    "category": "父母与孩子",
+    "topic": "语气与内容",
+    "intent": "要求重说但继续倾听",
+    "relationship": "家长对孩子",
+    "decision": "孩子没有动手或危险行为，但说话很冲；家长愿意听具体意见，也要制止辱骂。",
+    "tunes": [
+      "S025",
+      "S033"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "孩子顶嘴",
+      "语气冲",
+      "辱骂",
+      "重新说",
+      "听意见"
+    ],
+    "path": "scenes/cards/C0134.md"
   }
 ]
