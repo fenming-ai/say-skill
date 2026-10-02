@@ -27,6 +27,11 @@ ALIASES = {
     '往下处': ['继续了解', '继续发展'],
     '抢话': ['打断'],
     '陪我': ['陪伴'],
+    '催我结婚': ['催婚', '父母反复催婚'],
+    '特别热情': ['强烈邀约'],
+    '只想说说': ['倾诉', '愿不愿听建议'],
+    '爱喝的饮料': ['爸妈买饮料', '父母买饮料', '回应惦记'],
+    '最爱喝的饮料': ['爸妈买饮料', '父母买饮料', '回应惦记'],
 }
 
 
@@ -80,13 +85,17 @@ def load(root=ROOT):
                 raise ValueError(f'{sid}: 缺少内容 {heading}')
         if '参考表达：' not in body or 'WHY：' not in body:
             raise ValueError(f'{sid}: 缺少表达或解释')
-        if row['status'] == '已验收':
-            review = row.get('review')
+        review = row.get('review')
+        if review is not None:
             if not isinstance(review, str) or not review:
-                raise ValueError(f'{sid}: 已验收须链接具体反馈记录')
+                raise ValueError(f'{sid}: review 必须是反馈文件路径')
             feedback = (root / review).resolve()
             if not feedback.is_relative_to(root.resolve()) or feedback.suffix != '.md' or not feedback.is_file():
                 raise ValueError(f'{sid}: 人工反馈文件不存在或越界')
+        if row['status'] == '已验收' and not review:
+            raise ValueError(f'{sid}: 已验收须链接具体反馈记录')
+        if 'review_priority' in row and (row['review_priority'] is not True or not review):
+            raise ValueError(f'{sid}: 反馈优先须有正向反馈记录')
         for link in re.findall(r'\]\(([^\s)]+)\)', body):
             if '://' not in link and not link.startswith('#'):
                 target = (path.parent / link.split('#')[0]).resolve()
@@ -155,7 +164,7 @@ def rank(rows, query, category=None, intent=None, limit=5, include_drafts=False)
         score += sum(2 if gram in title else 1 for gram in grams if gram in hay)
         if score or not terms:
             scored.append((score, row))
-    return [r for _, r in sorted(scored, key=lambda x: (-x[0], x[1]['id']))[:limit]]
+    return [r for _, r in sorted(scored, key=lambda x: (-x[0], -bool(x[1].get('review_priority')), x[1]['id']))[:limit]]
 
 
 def main():

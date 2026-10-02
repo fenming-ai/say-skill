@@ -14,7 +14,10 @@
     "sources": [],
     "status": "候选",
     "keywords": [
-      "父母反复催婚"
+      "父母反复催婚",
+      "爸妈催我结婚",
+      "每次打电话催婚",
+      "不想接电话"
     ],
     "path": "scenes/cards/C0001.md"
   },
@@ -33,7 +36,10 @@
     "sources": [],
     "status": "候选",
     "keywords": [
-      "朋友强烈邀约"
+      "朋友强烈邀约",
+      "朋友特别热情",
+      "今晚聚餐",
+      "不好意思拒绝"
     ],
     "path": "scenes/cards/C0002.md"
   },
@@ -2224,6 +2230,7 @@
       "回礼"
     ],
     "review": "tests/red-envelope-feedback-2026-10-01.md",
+    "review_priority": true,
     "path": "scenes/cards/C0101.md"
   },
   {
@@ -2727,7 +2734,9 @@
     "keywords": [
       "朋友",
       "倾诉",
-      "建议",
+      "吐槽工作",
+      "听建议",
+      "只想说说",
       "不同看法",
       "愿不愿听"
     ],
@@ -3445,5 +3454,134 @@
       "还没同意"
     ],
     "path": "scenes/cards/C0148.md"
+  },
+  {
+    "id": "C0149",
+    "title": "父母买了自己爱喝的饮料",
+    "category": "父母与亲戚",
+    "topic": "回应惦记",
+    "intent": "感谢记得自己的喜好",
+    "relationship": "父母",
+    "decision": "父母买了用户爱喝的饮料并微信告知；用户想自然感谢。",
+    "tunes": [
+      "S044"
+    ],
+    "source_kind": "用户素材",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "爸妈买饮料",
+      "父母买饮料",
+      "爱喝的",
+      "喜欢喝的",
+      "还记得",
+      "怎么感谢",
+      "微信告诉我"
+    ],
+    "path": "scenes/cards/C0149.md"
+  },
+  {
+    "id": "C0150",
+    "title": "家人留了自己爱吃的菜",
+    "category": "父母与亲戚",
+    "topic": "回应惦记",
+    "intent": "感谢记得自己的口味",
+    "relationship": "经常一起吃饭的家人",
+    "decision": "家人明确说给用户留了其爱吃的菜；用户当天会回去吃，想自然回应。",
+    "tunes": [
+      "S044"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "给我留菜",
+      "留了爱吃的菜",
+      "家里留饭",
+      "记得我爱吃",
+      "回家吃",
+      "谢谢家人"
+    ],
+    "path": "scenes/cards/C0150.md"
+  },
+  {
+    "id": "C0151",
+    "title": "伴侣带回自己提过的小东西",
+    "category": "亲密关系",
+    "topic": "回应惦记",
+    "intent": "感谢记住随口提过的喜好",
+    "relationship": "伴侣之间",
+    "decision": "用户之前提过喜欢某款茶；伴侣路过时买了回来，用户确实喜欢，想表达开心和感谢。",
+    "tunes": [
+      "S044"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "对象买了我提过的",
+      "伴侣记得",
+      "另一半带礼物",
+      "随口说过",
+      "记住喜好",
+      "小惊喜"
+    ],
+    "path": "scenes/cards/C0151.md"
+  },
+  {
+    "id": "C0152",
+    "title": "朋友点菜时记得自己不吃香菜",
+    "category": "朋友与人情",
+    "topic": "回应照顾",
+    "intent": "感谢记住饮食习惯",
+    "relationship": "一起吃饭的朋友",
+    "decision": "朋友点菜时主动备注不放香菜，因为记得用户不吃；用户想轻松回应。",
+    "tunes": [
+      "S044"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "朋友记得不吃香菜",
+      "点菜备注",
+      "记得忌口",
+      "不吃香菜",
+      "饮食习惯",
+      "谢谢朋友"
+    ],
+    "path": "scenes/cards/C0152.md"
+  },
+  {
+    "id": "C0153",
+    "title": "孩子画了自己喜欢的花送来",
+    "category": "父母与孩子",
+    "topic": "回应心意",
+    "intent": "感谢记住自己的喜好",
+    "relationship": "家长与孩子",
+    "decision": "孩子知道用户喜欢向日葵，画了一朵送给用户；用户确实喜欢，想回应孩子。",
+    "tunes": [
+      "S044"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "孩子送画",
+      "画了喜欢的花",
+      "记得我喜欢",
+      "向日葵",
+      "谢谢孩子",
+      "回应礼物"
+    ],
+    "path": "scenes/cards/C0153.md"
   }
 ]

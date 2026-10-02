@@ -52,10 +52,36 @@ def main():
     assert scenes.rank(rows, '下属发感谢红包 我不想拿')[0]['id'] == 'C0145'
     assert scenes.rank(rows, '和另一半吵架 我一直抢话 怎么道歉')[0]['id'] == 'C0138'
     assert scenes.rank(rows, '爱人总加班 我想让他陪我')[0]['id'] == 'C0146'
+    assert scenes.rank(rows, '爸妈说给我买了最爱喝的饮料 怎么回')[0]['id'] == 'C0149'
     only = scenes.rank(rows, '红包', '红包与送礼', '拒收转账', include_drafts=True)
     assert only and all(r['intent'] == '拒收转账' for r in only)
     assert all(r['category'] == '红包与送礼' for r in refusals)
     assert len(scenes.rank(rows, '', limit=3)) == 3
+
+    reviewed = copy.deepcopy(next(r for r in rows if r['id'] == 'C0101'))
+    plain = copy.deepcopy(reviewed)
+    reviewed['id'] = 'C9999'
+    reviewed['review_priority'] = True
+    plain['id'] = 'C0000'
+    plain.pop('review')
+    plain.pop('review_priority')
+    assert scenes.rank([plain, reviewed], '红包', limit=2)[0]['id'] == 'C9999'
+
+    cold_cases = json.loads((ROOT / 'tests/cold-read-cases.json').read_text())
+    assert len(cold_cases) == 30
+    assert len({case['id'] for case in cold_cases}) == 30
+    assert {case['category'] for case in cold_cases} == set(scenes.CATEGORIES)
+    by_id = {row['id']: row for row in rows}
+    for case in cold_cases:
+        assert set(case) == {'id', 'category', 'prompt', 'decision', 'allowed', 'forbidden', 'expected_scene', 'anchor'}
+        assert all(isinstance(case[key], str) and case[key].strip() for key in ['id', 'category', 'prompt', 'decision', 'expected_scene', 'anchor'])
+        assert case['allowed'] and all(isinstance(value, str) and value for value in case['allowed'])
+        assert all(isinstance(value, str) and value for value in case['forbidden'])
+        assert not any(value in case['anchor'] for value in case['forbidden'])
+        expected = by_id[case['expected_scene']]
+        assert expected['category'] == case['category'] and expected['status'] != '待重审'
+        matches = scenes.rank(rows, case['prompt'])
+        assert matches and matches[0]['id'] == case['expected_scene'], (case['id'], [row['id'] for row in matches])
 
     with tempfile.TemporaryDirectory() as directory:
         temp = Path(directory)
@@ -75,6 +101,7 @@ def main():
                                ({'category': '不存在'}, '分类或状态错误'),
                                ({'id': 'C0001'}, '编号重复或文件名不匹配'),
                                ({'source_kind': '原创迁移', 'sources': []}, '原创迁移须有来源'),
+                               ({'review_priority': True}, '反馈优先须有正向反馈记录'),
                                ({'status': '已验收', 'review': '../../outside.md'}, '人工反馈文件不存在或越界')]:
             put(dict(row, **changes)); rejected(temp, error)
         put(row, body + '\n[丢失文件](missing.md)\n'); rejected(temp, '无效本地链接')
@@ -107,7 +134,7 @@ def main():
     assert len(scenes.rank(large, '红包 不想收', '红包与送礼', include_drafts=True)) == 5
     elapsed = time.perf_counter() - start
     assert json.loads(scenes.generated(large, tunes)['scenes/catalog.json']) == large
-    print(f'通过：真实库检索、坏数据拒绝、索引过期与只读检查；1000 条合成元数据检索 {elapsed:.4f}s（不代表语义质量）。')
+    print(f'通过：30 条冷读路由、用户反馈优先、真实库检索、坏数据拒绝、索引过期与只读检查；1000 条合成元数据检索 {elapsed:.4f}s（不代表语义质量）。')
 
 
 if __name__ == '__main__':
