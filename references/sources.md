@@ -76,10 +76,10 @@
 
 - **A01** [Emily Post：The Continuing Importance of the RSVP](https://emilypost.com/advice/the-continuing-importance-of-the-rsvp)。已读相关正文“Keep replies brief”：拒绝邀请的解释可以简短。迁移为不必展开私人细节，不推导出必须冷硬说不。
 - **A02** [Melissa Urban：Holiday Boundaries](https://whole30.com/article/dear-melissa-setting-holiday-boundaries/)。已读节日安排、隐私问题与饮食压力部分。适合提炼话题转换和明确范围，不机械照搬较强硬的英文表达。
-- **A03** [Melissa Urban：Upgrade your summer with boundaries](https://blog.melissau.com/p/upgrade-your-summer-with-boundaries)。已读公开的访客安排、Scenario 3 独处与共同旅行、Scenario 4 夫妻探亲住宿部分。保留自己的时间，不要求向别人交代所有安排；具体中文托辞由本项目原创。
+- **A03** [Melissa Urban：Upgrade your summer with boundaries](https://blog.melissau.com/p/upgrade-your-summer-with-boundaries)。已读公开的访客安排、Scenario 3 独处与共同旅行、Scenario 4 夫妻探亲住宿部分。保留自己的时间，不要求向别人交代所有安排；现用于 S016 及 C0148 的共同安排判断，具体中文表达由本项目原创。
 - **A04** [CNVC：The Purpose of Nonviolent Communication](https://www.cnvc.org/about/purpose-of-nvc)。已读公开原则，支持愿意表达感受时的 S001；不把坦白感受当所有场景的义务。
 - **A05** [CCI：Assertiveness 资源入口](https://www.cci.health.wa.gov.au/en/Resources/Looking-After-Yourself/Assertiveness)。已确认拒绝模块入口；此前 PDF 正文读取失败，仍为线索，不声称已读模块。
-- **A06** [love is respect：How to set boundaries](https://www.loveisrespect.org/everyone-deserves-a-healthy-relationship/how-to-set-boundaries/)。已读公开说明；保留双方意愿与限制，供第二批约会关系方向参考。
+- **A06** [love is respect：How to set boundaries](https://www.loveisrespect.org/everyone-deserves-a-healthy-relationship/how-to-set-boundaries/)。已读公开说明；保留双方意愿与限制。本轮用于约会地点、关系节奏及结束了解的判断；中文场景和话术为原创迁移。
 - **A07** [UNICEF：Bullying](https://www.unicef.org/parenting/child-care/bullying)。已读倾听、支持孩子及联系学校部分；本轮复读后用于 S021、S022 的保护方向及 C0081、C0089、C0090；中文场景和措辞为原创，不是 UNICEF 原句。不能把话术当作保护行动的替代。
 
 ## monitor 抓取：六篇小红书笔记
@@ -131,6 +131,12 @@
 ## 当前质量状态修订
 
 用户对上批原创表达给出整体质量异议后，C0044—C0100（57 张）与 S018—S026（9 首）转为待重审，默认不作表达范本。前文“新增卡均为候选”为当时记录；当前数量与状态以生成索引为准。本轮修订角色、入库与表达检查，没有新增书籍正文或冒称完成全书蒸馏。
+
+## 弱分类正文补强（2026-10-02）
+
+本轮没有按标题新增大量话术，而是用已读正文修订原有弱卡：A08-M021 支持礼物感谢落到具体付出；A08-M014 支持拒收答谢时分开心意与钱物；A08-M006 与 M015 的正反材料支持接受约会拒绝；A06 支持约会地点、发展节奏与结束关系中的个人选择；B01、B06 分别支持财务数字和介绍人追问时的隐私边界；B05b 支持先说影响决定的信息再谈调整。
+
+A08-M001 的伴侣正文另提炼 S043，并新增陪伴需要、听懂抱怨两张亲密关系卡；A03 补共同安排卡。所有表达仍为原创迁移，不冒充来源原句，也不因有正文依据升级为人工已验收。
 
 ## 微信文章线索：2026-10-01 RedFox 核验
 

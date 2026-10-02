@@ -1361,9 +1361,11 @@
     "tunes": [
       "S018"
     ],
-    "source_kind": "原创场景",
-    "sources": [],
-    "status": "待重审",
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
     "keywords": [
       "礼物致谢",
       "感谢准备",
@@ -1382,9 +1384,11 @@
     "tunes": [
       "S019"
     ],
-    "source_kind": "原创场景",
-    "sources": [],
-    "status": "待重审",
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
     "keywords": [
       "答谢礼",
       "拒收答谢",
@@ -1529,9 +1533,11 @@
     "tunes": [
       "S007"
     ],
-    "source_kind": "原创场景",
-    "sources": [],
-    "status": "待重审",
+    "source_kind": "原创迁移",
+    "sources": [
+      "A06"
+    ],
+    "status": "候选",
     "keywords": [
       "约会地点",
       "限定见面方式",
@@ -1550,9 +1556,11 @@
     "tunes": [
       "S023"
     ],
-    "source_kind": "原创场景",
-    "sources": [],
-    "status": "待重审",
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
     "keywords": [
       "面对拒绝",
       "接受拒绝",
@@ -1571,9 +1579,11 @@
     "tunes": [
       "S011"
     ],
-    "source_kind": "原创场景",
-    "sources": [],
-    "status": "待重审",
+    "source_kind": "原创迁移",
+    "sources": [
+      "B05b"
+    ],
+    "status": "候选",
     "keywords": [
       "约会变更",
       "说明延误",
@@ -1592,9 +1602,12 @@
     "tunes": [
       "S023"
     ],
-    "source_kind": "原创场景",
-    "sources": [],
-    "status": "待重审",
+    "source_kind": "原创迁移",
+    "sources": [
+      "A06",
+      "A08"
+    ],
+    "status": "候选",
     "keywords": [
       "结束了解",
       "结束关系",
@@ -1613,9 +1626,11 @@
     "tunes": [
       "S010"
     ],
-    "source_kind": "原创场景",
-    "sources": [],
-    "status": "待重审",
+    "source_kind": "原创迁移",
+    "sources": [
+      "A06"
+    ],
+    "status": "候选",
     "keywords": [
       "发展节奏",
       "放慢进展",
@@ -1635,9 +1650,11 @@
       "S023",
       "S004"
     ],
-    "source_kind": "原创场景",
-    "sources": [],
-    "status": "待重审",
+    "source_kind": "原创迁移",
+    "sources": [
+      "B06"
+    ],
+    "status": "候选",
     "keywords": [
       "介绍人追问",
       "保留评价",
@@ -1677,9 +1694,11 @@
     "tunes": [
       "S004"
     ],
-    "source_kind": "原创场景",
-    "sources": [],
-    "status": "待重审",
+    "source_kind": "原创迁移",
+    "sources": [
+      "B01"
+    ],
+    "status": "候选",
     "keywords": [
       "财务隐私",
       "暂不披露数字",
@@ -3138,7 +3157,7 @@
   {
     "id": "C0138",
     "title": "争执中一直打断伴侣",
-    "category": "朋友与人情",
+    "category": "亲密关系",
     "topic": "争执修复",
     "intent": "停止反驳并归还话语权",
     "relationship": "伴侣之间",
@@ -3157,7 +3176,11 @@
       "争吵后怎么说",
       "重新沟通",
       "一直反驳",
-      "先听完"
+      "先听完",
+      "对象",
+      "另一半",
+      "爱人",
+      "抢话"
     ],
     "path": "scenes/cards/C0138.md"
   },
@@ -3315,5 +3338,112 @@
       "聚焦目标"
     ],
     "path": "scenes/cards/C0144.md"
+  },
+  {
+    "id": "C0145",
+    "title": "下属发感谢红包，收下心意但不收钱",
+    "category": "红包与送礼",
+    "topic": "婉拒感谢红包",
+    "intent": "接受感谢并拒收红包",
+    "relationship": "上下级",
+    "decision": "下属发来感谢红包；用户决定不领取，愿意接受感谢，不说明怕回礼的私人考虑。",
+    "tunes": [
+      "S019"
+    ],
+    "source_kind": "用户素材",
+    "sources": [],
+    "status": "候选",
+    "keywords": [
+      "下属红包",
+      "员工红包",
+      "感谢红包",
+      "不想收",
+      "拒收",
+      "回礼",
+      "领导",
+      "过年"
+    ],
+    "path": "scenes/cards/C0145.md"
+  },
+  {
+    "id": "C0146",
+    "title": "伴侣忙于工作，想商量固定相处时间",
+    "category": "亲密关系",
+    "topic": "陪伴需要",
+    "intent": "理解后提出具体请求",
+    "relationship": "伴侣之间",
+    "decision": "伴侣已说明最近重视手头工作；用户愿意理解，也想每周留一晚共同相处。",
+    "tunes": [
+      "S043"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "伴侣加班",
+      "对象总加班",
+      "爱人工作忙",
+      "陪我",
+      "缺少陪伴",
+      "约固定时间",
+      "另一半"
+    ],
+    "path": "scenes/cards/C0146.md"
+  },
+  {
+    "id": "C0147",
+    "title": "伴侣说你根本不在乎我",
+    "category": "亲密关系",
+    "topic": "听懂抱怨",
+    "intent": "先问具体事情",
+    "relationship": "伴侣之间",
+    "decision": "伴侣说用户不在乎自己，但尚未说具体指哪件事；用户愿意先听，不立刻争辩。",
+    "tunes": [
+      "S027",
+      "S037"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A08"
+    ],
+    "status": "候选",
+    "keywords": [
+      "不在乎我",
+      "对象抱怨",
+      "另一半生气",
+      "爱人失望",
+      "先别争",
+      "问哪件事",
+      "伴侣沟通"
+    ],
+    "path": "scenes/cards/C0147.md"
+  },
+  {
+    "id": "C0148",
+    "title": "伴侣替两个人答应朋友聚会",
+    "category": "亲密关系",
+    "topic": "共同安排",
+    "intent": "收回自己的决定权",
+    "relationship": "伴侣之间",
+    "decision": "伴侣已替两人答应周末聚会；用户此前没有同意，目前也还没决定是否参加。",
+    "tunes": [
+      "S016"
+    ],
+    "source_kind": "原创迁移",
+    "sources": [
+      "A03"
+    ],
+    "status": "候选",
+    "keywords": [
+      "对象替我答应",
+      "另一半替我决定",
+      "爱人答应聚会",
+      "没问我",
+      "共同安排",
+      "还没同意"
+    ],
+    "path": "scenes/cards/C0148.md"
   }
 ]

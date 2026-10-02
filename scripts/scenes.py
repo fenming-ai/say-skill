@@ -8,8 +8,26 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-CATEGORIES = ['父母与亲戚', '朋友与人情', '红包与送礼', '认识与约会', '相亲与关系选择', '家长与老师', '父母与孩子', '工作与日常事务']
+CATEGORIES = ['父母与亲戚', '朋友与人情', '红包与送礼', '认识与约会', '相亲与关系选择', '亲密关系', '家长与老师', '父母与孩子', '工作与日常事务']
 REQUIRED = {'id', 'title', 'category', 'topic', 'intent', 'relationship', 'decision', 'tunes', 'source_kind', 'sources', 'status', 'keywords'}
+
+# 只补日常说法与库内用词之间的缺口；新漏召回出现后再加，不做分词器。
+ALIASES = {
+    '对象': ['伴侣', '约会对象', '相亲对象'],
+    '另一半': ['伴侣'],
+    '爱人': ['伴侣'],
+    '男朋友': ['伴侣'],
+    '女朋友': ['伴侣'],
+    '老公': ['伴侣'],
+    '老婆': ['伴侣'],
+    '送东西': ['送礼', '礼物'],
+    '送点东西': ['送礼', '礼物'],
+    '不想拿': ['不想收', '拒收'],
+    '没眼缘': ['没有感觉', '不继续发展'],
+    '往下处': ['继续了解', '继续发展'],
+    '抢话': ['打断'],
+    '陪我': ['陪伴'],
+}
 
 
 def load(root=ROOT):
@@ -93,7 +111,7 @@ def generated(rows, tunes):
              '先选分类，再按话题与意图筛选，通常读 1—3 张卡及关联曲子。相似标题不代表条件相同；确认用户是否决定、是否答应过、哪些背景能公开。', '',
              '可运行 `python3 scripts/scenes.py search "红包 不想收" --category 红包与送礼`，默认排除待重审，最多 5 条；返回候选元数据，不自动套用话术。无结果可换关键词或浏览分类，不编造匹配。', '',
              '待重审仅供维护时用 `--include-drafts` 查看，不能从曲目链接绕过限制照搬草稿；有来源的原创迁移也不等于作者原句。没有合适样本时依据当前处境直接表达。', '',
-             '这是词面检索，不能识别否定、隐含意图或所有同义词，最终选择由 AI 阅读条件判断。无需 Python 时直接打开下面的分类页。', '']
+             '这是带少量同义归一的词面检索，不能识别否定、隐含意图或所有说法，最终选择由 AI 阅读条件判断。无需 Python 时直接打开下面的分类页。', '']
     for cat in CATEGORIES:
         subset = [r for r in rows if r['category'] == cat]
         name = f'scenes/categories/{cat}.md'
@@ -120,6 +138,10 @@ def generated(rows, tunes):
 def rank(rows, query, category=None, intent=None, limit=5, include_drafts=False):
     # ponytail: 词面排序不理解否定；先读候选条件，实际漏召回再补关键词。
     terms = re.findall(r'[\w]+', query.lower())
+    for phrase, aliases in ALIASES.items():
+        if phrase in query.lower():
+            terms.extend(aliases)
+    terms = list(dict.fromkeys(terms))
     scored = []
     for row in rows:
         if row['status'] == '待重审' and not include_drafts:
